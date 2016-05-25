@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "defaultpinimage": "pinb.png",
+    "id": "mapRouteSearch",
+    "ide_onClick": "AS_Map_e1e31c56325e4f1aa3340a6a70ab4101",
+    "info": null,
+    "invokedProperty": "maps",
+    "isvisible": true,
+    "kuid": "14b47b749177437e8b4223667acffff3",
+    "locationdata": [
+        {
+            "desc": "Phoenix infocity, Gachibowli",
+            "lat": "17.447326",
+            "lon": "78.371358",
+            "name": "KonyLabs(New)"
+        },
+        {
+            "desc": "Mindspace, Hitech City",
+            "lat": "17.441839",
+            "lon": "78.380928",
+            "name": "KonyLabs(Old)"
+        },
+        {
+            "desc": "Orlando, US",
+            "lat": "28.449340",
+            "lon": "-81.481519",
+            "name": "KonyLabs"
+        }
+    ],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "name": "kony.ui.Map",
+    "onclick": "AS_Map_e1e31c56325e4f1aa3340a6a70ab4101",
+    "parent": "frmMyRouteSearch",
+    "pf": "frmMyRouteSearch",
+    "provider": "google",
+    "screenlevelwidget": false,
+    "wType": "Map",
+    "widgetalignment": 5,
+    "zindex": 100,
+    "zoomlevel": 15
+}

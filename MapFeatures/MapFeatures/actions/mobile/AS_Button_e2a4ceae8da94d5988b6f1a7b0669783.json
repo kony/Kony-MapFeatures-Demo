@@ -1,0 +1,13 @@
+{
+    "AS_Button_e2a4ceae8da94d5988b6f1a7b0669783": {
+        "id": "AS_Button_e2a4ceae8da94d5988b6f1a7b0669783",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__b3d52d7482ec4a1a88c6dd23679111d7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"@@@@ in btnMyRS onClick\");\n\nif(frmMyRouteSearch.flxScrlSeg.zIndex == 100) {\n\tfrmMyRouteSearch.flxScrlSeg.zIndex = 1;\n  \tfrmMyRouteSearch.mapRouteSearch.zIndex = 100;\n  \tfrmMyRouteSearch.btnMyRS.text = \"Show Turn By Turn Directions\";\n  \t\n} else {\n  \tdisplySearchRoutes(selectedRouteNo);\n  \tfrmMyRouteSearch.flxScrlSeg.zIndex = 100;\n  \tfrmMyRouteSearch.mapRouteSearch.zIndex = 1;\n  \tfrmMyRouteSearch.btnMyRS.text = \"Show Route Searched Map\";  \n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

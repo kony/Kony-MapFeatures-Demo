@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s3f768fd25ab44b297054cc4d6ed59a4",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "Flextemp"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "contentoffsetx": 0,
+    "contentoffsety": 0,
+    "contentsizeheight": 0,
+    "contentsizewidth": 0,
+    "currentLocale": null,
+    "device": "iPhone6",
+    "displayorientation": 3,
+    "enabled": false,
+    "enabledforidletimeout": false,
+    "id": "mapTemplate",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isvisible": true,
+    "kuid": "ee8808de9ac34f9a9b7cbc1a3efa8ffd",
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "orientation": 1,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "percent": true,
+    "platform": "iphone",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhone6",
+    "titleBarSkin": "sa1f21944341431ebbcaa9421c715af9",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form",
+    "widgetalignment": 5
+}

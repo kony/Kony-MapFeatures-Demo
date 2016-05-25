@@ -1,0 +1,12 @@
+{
+    "AS_Form_8f81f7d97afa4e4facd0a098a9328157": {
+        "id": "AS_Form_8f81f7d97afa4e4facd0a098a9328157",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_601a2a9e4f984e729416f74a04820888",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmRouteSearch.mapRouteSearch.onClick = onRouteMapClick;\nfrmRouteSearch.flxscrlContainer.top = \"90%\";\nfrmRouteSearch.flxscrlContainer.forceLayout();\nfrmRouteSearch.forceLayout();",
+            "callbackType": null
+        }]
+    }
+}

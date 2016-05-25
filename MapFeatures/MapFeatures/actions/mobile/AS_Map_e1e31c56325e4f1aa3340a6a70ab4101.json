@@ -1,0 +1,12 @@
+{
+    "AS_Map_e1e31c56325e4f1aa3340a6a70ab4101": {
+        "id": "AS_Map_e1e31c56325e4f1aa3340a6a70ab4101",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_9a78cd309caa49f38aca5d3c61df0e0a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"@@@@ in onClick of map \");\nfrmRouteSearch.mapRouteSearch.onClick = onRouteMapClick;",
+            "callbackType": null
+        }]
+    }
+}

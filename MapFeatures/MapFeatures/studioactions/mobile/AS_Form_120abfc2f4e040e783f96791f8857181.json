@@ -1,0 +1,12 @@
+{
+    "AS_Form_120abfc2f4e040e783f96791f8857181": {
+        "id": "AS_Form_120abfc2f4e040e783f96791f8857181",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_f6798e7d46104d4d95000fe98c49c206",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmMyRouteSearch.mapRouteSearch.onClick = onRouteMapClick;\n",
+            "callbackType": null
+        }]
+    }
+}

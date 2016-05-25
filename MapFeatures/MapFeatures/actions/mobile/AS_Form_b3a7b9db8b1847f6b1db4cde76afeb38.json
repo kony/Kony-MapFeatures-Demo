@@ -1,0 +1,13 @@
+{
+    "AS_Form_b3a7b9db8b1847f6b1db4cde76afeb38": {
+        "id": "AS_Form_b3a7b9db8b1847f6b1db4cde76afeb38",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__46a05ba5a65c43008baaa74a1eb07ae2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "addPolygon();\n\nfunction addPolygon() {\n    // pop1.dismiss();\n    var locations = [{\n        lat: 17.494332,\n        lon: 78.391793\n    }, {\n        lat: 17.451759,\n        lon: 78.380806\n    }, {\n        lat: 17.427789,\n        lon: 78.451751\n    }, {\n        lat: 17.473305,\n        lon: 78.425191\n    }];\n    var holes = [\n        [{\n            lat: 17.469702,\n            lon: 78.391202\n        }, {\n            lat: 17.469866,\n            lon: 78.409742\n        }, {\n            lat: 17.475924,\n            lon: 78.412832\n        }, {\n            lat: 17.483456,\n            lon: 78.403733\n        }, {\n            lat: 17.482965,\n            lon: 78.393949\n        }, {\n            lat: 17.476907,\n            lon: 78.394464\n        }],\n        [{\n            lat: 17.455320,\n            lon: 78.408714\n        }, {\n            lat: 17.448114,\n            lon: 78.406311\n        }, {\n            lat: 17.441400,\n            lon: 78.416096\n        }, {\n            lat: 17.450243,\n            lon: 78.426567\n        }]\n    ];\n    var locationData = {\n        id: \"polygon1\",\n        locations: locations,\n        navigateAndZoom: true,\n        polygonConfig: {\n            innerPolygons: holes,\n            lineColor: \"0xFF0000FF\",\n            lineWidth: 9,\n            fillColor: \"0xFF0000FF\"\n        }\n    };\n    frmDrawPolygon.mapDrawPolygon.addPolygon(locationData);\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
