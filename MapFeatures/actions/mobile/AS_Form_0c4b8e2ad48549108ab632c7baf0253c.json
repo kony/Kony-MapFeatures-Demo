@@ -1,0 +1,12 @@
+{
+    "AS_Form_0c4b8e2ad48549108ab632c7baf0253c": {
+        "id": "AS_Form_0c4b8e2ad48549108ab632c7baf0253c",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_dbc1ca92615e45ca8a8d8747d62f64cd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "setPinFromFilePathAirPort();\n\nfrmMyRouteSearch.mapRouteSearch.screenLevelWidget = false;\nsearchRoutes_Mine();\n",
+            "callbackType": null
+        }]
+    }
+}

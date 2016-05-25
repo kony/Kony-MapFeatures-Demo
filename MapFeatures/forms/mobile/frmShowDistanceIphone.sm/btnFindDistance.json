@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20.27%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_skin_": "sd74bf02654d44c1b8aa946f512cc5a7",
+    "_text_": "Display Route",
+    "_top_": {
+        "type": "string",
+        "value": "73.42%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0b0cf5547094073a87657f3731676d6",
+    "id": "btnFindDistance",
+    "ide_onClick": "AS_Button_19fa63a7e10544b693b82ea329b98211",
+    "info": null,
+    "isvisible": true,
+    "kuid": "630265e0b43946c4bdab8ba1034ea657",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_5b6d44bc51e5489cb3e799fa7cc2635f",
+    "parent": "frmShowDistanceIphone",
+    "pf": "frmShowDistanceIphone",
+    "wType": "Button",
+    "widgetalignment": 5,
+    "zindex": 1
+}

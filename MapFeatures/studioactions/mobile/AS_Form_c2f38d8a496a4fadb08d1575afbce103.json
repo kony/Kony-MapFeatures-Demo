@@ -1,0 +1,13 @@
+{
+    "AS_Form_c2f38d8a496a4fadb08d1575afbce103": {
+        "id": "AS_Form_c2f38d8a496a4fadb08d1575afbce103",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__8fda00702f314c26adff2a749a755ce3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\tvar testdata1=\n   {id:\"circleId\",centerLocation :{\n      lat:\"17.441839\", lon:\"78.380928\"}\n     ,radius:1     }\nvar testdata2=\n   {id:\"circleId2\",centerLocation :{\nlat:\"17.447326\",lon:\"78.371358\" }\n     ,radius:1\n     }\n    frmDrawCircle.mapDrawCircle.addCircle(testdata1); \n    frmDrawCircle.mapDrawCircle.addCircle(testdata2); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

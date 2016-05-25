@@ -1,0 +1,12 @@
+{
+    "AS_Form_d634aa9e196349ad9a9e27e88c0b1af9": {
+        "id": "AS_Form_d634aa9e196349ad9a9e27e88c0b1af9",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onHide_5ed01548a3804c8ba9e66c87abab7c79",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmRouteSearch.destroy();",
+            "callbackType": null
+        }]
+    }
+}

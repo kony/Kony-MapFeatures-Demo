@@ -1,0 +1,12 @@
+{
+    "AS_FlexScrollContainer_cca2916186c14748b31dfe6aaff4fe69": {
+        "id": "AS_FlexScrollContainer_cca2916186c14748b31dfe6aaff4fe69",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchMove_dcd622afce6f465d8ca04636b319586d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmRouteSearch.flxScrlOverlay.height = \"60%\";\n",
+            "callbackType": null
+        }]
+    }
+}

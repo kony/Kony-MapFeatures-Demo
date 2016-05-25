@@ -1,0 +1,13 @@
+{
+    "AS_ScrollBox_d27ca6500b8b416b97460cfb01c11929": {
+        "id": "AS_ScrollBox_d27ca6500b8b416b97460cfb01c11929",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__5fbb7c9bfa5844408bd4427e06756165",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"@@@@ onPush\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

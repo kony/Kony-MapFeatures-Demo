@@ -1,0 +1,98 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_dimension_": 18,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        8,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s82fefbd660a49e6a20b0d2354a5a403",
+    "_top_": {
+        "type": "string",
+        "value": "15.94%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "enabled": false,
+    "groupcells": false,
+    "id": "rbtngrpDestination",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "e8efbc0f9d2a4a9bafa587aca8eca50c",
+    "masterdata": [
+        [
+            "rbg1",
+            "Kony - Austin"
+        ],
+        [
+            "rbg2",
+            "Kony - Orlando"
+        ],
+        [
+            "rbg3",
+            "Kony - Foster City"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "paddinginpixel": false,
+    "parent": "flxSDDestination",
+    "pf": "frmShowDistanceIphone",
+    "selectedkey": "rbg2",
+    "selectedkeyvalue": [
+        "rbg2",
+        "Kony - Orlando"
+    ],
+    "size": 18,
+    "tooltip": "",
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

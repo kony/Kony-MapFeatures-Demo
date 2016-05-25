@@ -1,0 +1,13 @@
+{
+    "AS_Form_6ec24ce2cfbb4128be53205c272581cf": {
+        "id": "AS_Form_6ec24ce2cfbb4128be53205c272581cf",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__4a52a71a47eb4633b0d04221b9f09fda",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmDrawPolygon.destroy();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

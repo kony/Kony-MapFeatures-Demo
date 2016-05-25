@@ -1,0 +1,12 @@
+{
+    "AS_FlexScrollContainer_47dc3c9a3bb94fec8a9ffae76d3e1e8b": {
+        "id": "AS_FlexScrollContainer_47dc3c9a3bb94fec8a9ffae76d3e1e8b",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_6f07ec5d33754a44b4ff07ebf29d27f3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//animateDirection();\n\nfunction animationBtoT()\n{\n\tvar animDefinition = \n\t{       \n       100 : \n\t   {\n         \"top\":\"0%\"        \n       }\n    } ;\n\tbtot = kony.ui.createAnimation(animDefinition);\n\treturn btot;\n}\n\nfunction animationTtoB()\n{\n\tvar animDefinition = \n\t{       \n       100 : \n\t   {\n         \"top\":\"90%\"         \n       }\n    } ;\n\tttob = kony.ui.createAnimation(animDefinition);\n\treturn ttob;\n}\n\nfunction animateDirection()\n{\n\tvar topPosition = frmRouteSearch.flxscrlContainer.top;\n\tkony.print(\"@@@@ topPosition is : \" + topPosition);\n\t\n\tif(topPosition == \"90%\") {\n\t\tfrmRouteSearch.flxscrlContainer.animate(animationBtoT(), animConfigBtoT(), {});\n\t}\n\telse {\n\t\tfrmRouteSearch.flxscrlContainer.animate(animationTtoB(), animConfigTtoB(), {});\n\t}\n}\n\nfunction animConfigBtoT(){\n var config = {\n    \"duration\":2,\n   \t\"fillMode\":kony.anim.FILL_MODE_FORWARDS\n };\n return config;\n}\n\nfunction animConfigTtoB(){\n var config = {\n    \"duration\":2,\n   \t\"fillMode\":kony.anim.FILL_MODE_FORWARDS\n };\n return config;\n}\n",
+            "callbackType": null
+        }]
+    }
+}

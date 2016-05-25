@@ -1,0 +1,13 @@
+{
+    "AS_Button_66261dd02b714d05a966f56632a705a9": {
+        "id": "AS_Button_66261dd02b714d05a966f56632a705a9",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__c2226fecf6b64995b4364fda2f8650a0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "animateDirection();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

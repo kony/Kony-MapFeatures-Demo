@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_skin_": "sd74bf02654d44c1b8aa946f512cc5a7",
+    "_text_": "Route Searching",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0b0cf5547094073a87657f3731676d6",
+    "id": "btnDistance",
+    "ide_onClick": "AS_Button_ae9aa026d3da4f8881169a512a3a5612",
+    "info": null,
+    "isvisible": true,
+    "kuid": "bff9fc073e3c4623b5547ef1845a698e",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_ae9aa026d3da4f8881169a512a3a5612",
+    "parent": "flxFunctionList",
+    "pf": "frmFeatures",
+    "wType": "Button",
+    "widgetalignment": 5
+}
