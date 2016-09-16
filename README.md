@@ -48,4 +48,6 @@ Cloud :
 **Mobile**
  * android
  * iPhone
+ 
+Certified4KonyCommunity7.1.1
 
