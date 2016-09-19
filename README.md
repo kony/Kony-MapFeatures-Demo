@@ -49,5 +49,5 @@ Cloud :
  * android
  * iPhone
  
-Certified@KonyCommunity
+CertifiedAtKonyCommunity
 
