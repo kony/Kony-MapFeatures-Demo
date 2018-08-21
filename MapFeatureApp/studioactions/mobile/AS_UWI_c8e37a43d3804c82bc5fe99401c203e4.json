@@ -1,0 +1,20 @@
+{
+    "AS_UWI_c8e37a43d3804c82bc5fe99401c203e4": {
+        "id": "AS_UWI_c8e37a43d3804c82bc5fe99401c203e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "KUID": "c265e7079e5a47eb830494a40e7a5c26",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f23d7b4762f14a11b3fc7a7f85ef28bf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.invokeIntgService(\"fetchCafe\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

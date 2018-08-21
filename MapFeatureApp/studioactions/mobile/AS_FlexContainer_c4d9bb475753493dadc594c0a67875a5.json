@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_c4d9bb475753493dadc594c0a67875a5": {
+        "id": "AS_FlexContainer_c4d9bb475753493dadc594c0a67875a5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h6496e7586634c9da41a126203cbc850",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.animateFlexToFull();",
+            "callbackType": null
+        }]
+    }
+}

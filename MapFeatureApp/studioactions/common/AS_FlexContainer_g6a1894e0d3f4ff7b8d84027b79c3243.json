@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_g6a1894e0d3f4ff7b8d84027b79c3243": {
+        "id": "AS_FlexContainer_g6a1894e0d3f4ff7b8d84027b79c3243",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "KUID": "ua3b7c92484c4983985df21de115acb6",
+            "name": "uwua3b7c92484c4983985df21de115acb6",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e5e6df4cff784118a2619a491ed3a914",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.obj.onSnapValidate(this,x);\nthis.view.forceLayout();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

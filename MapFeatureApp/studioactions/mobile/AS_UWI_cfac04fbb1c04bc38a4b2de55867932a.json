@@ -1,0 +1,20 @@
+{
+    "AS_UWI_cfac04fbb1c04bc38a4b2de55867932a": {
+        "id": "AS_UWI_cfac04fbb1c04bc38a4b2de55867932a",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "KUID": "c265e7079e5a47eb830494a40e7a5c26",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gf20fd89a8a645818d24c0c8e9afb632",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.invokeIntgService(\"fetchHotels\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

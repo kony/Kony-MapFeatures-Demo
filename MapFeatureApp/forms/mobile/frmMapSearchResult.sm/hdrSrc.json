@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 5
+    },
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "91dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "72dp"
+    },
+    "_skin_": "sb10aca4def14ffe8ef50143de8078ad",
+    "_text_": "Orlando Airport",
+    "_top_": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "contentAlignment": 4,
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "hdrSrc",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "contentAlignment": 4,
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "c23de9f37771414f96b05759b4f3382f",
+    "masterType": 1,
+    "name": "kony.ui.Label",
+    "parent": "FlexContainer0b27f9f10d83043",
+    "pf": "frmMapSearchResult",
+    "spa": {
+        "contentAlignment": 5
+    },
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

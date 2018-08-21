@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        3
+    ],
+    "_skin_": "sc0dff13902e43c2a984d86600179cc1",
+    "_top_": {
+        "type": "string",
+        "value": "363dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "52.40%"
+    },
+    "containerweight": 100,
+    "groupcells": false,
+    "id": "rbgDestnation",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "bdc014df55304e4f80e6be774ce26f19",
+    "masterdata": [
+        [
+            "rbg1",
+            "Kony Austin"
+        ],
+        [
+            "rbg2",
+            "Kony Orlando"
+        ],
+        [
+            "rbg3",
+            "Kony Foster City"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "paddinginpixel": false,
+    "parent": "FlexContainer0b7cf2699669249",
+    "pf": "frmSearchRoutes",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "rbg2",
+    "selectedkeyvalue": [
+        "rbg2",
+        "Kony Orlando"
+    ],
+    "size": 18,
+    "tickedimage": "radioblue.png",
+    "untickedimage": "radiogrey.png",
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

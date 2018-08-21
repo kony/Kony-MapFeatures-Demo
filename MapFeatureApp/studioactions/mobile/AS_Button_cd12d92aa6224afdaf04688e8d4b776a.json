@@ -1,0 +1,24 @@
+{
+    "AS_Button_cd12d92aa6224afdaf04688e8d4b776a": {
+        "id": "AS_Button_cd12d92aa6224afdaf04688e8d4b776a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMapSearchResult",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a651cbdcbd37484894e58c63c05d5b74"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ib06af61dbb548dd95279ddf5446a2b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxRoutes.isVisible=true;\nthis.segData();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

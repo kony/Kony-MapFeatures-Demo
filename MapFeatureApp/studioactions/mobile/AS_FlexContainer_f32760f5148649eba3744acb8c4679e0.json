@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_f32760f5148649eba3744acb8c4679e0": {
+        "id": "AS_FlexContainer_f32760f5148649eba3744acb8c4679e0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMapSearchResult",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a651cbdcbd37484894e58c63c05d5b74"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i79880eab162413ca098b2ce798f6b4f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_ad825400731b4bbe81a3b018e387463a": {
+        "id": "AS_FlexContainer_ad825400731b4bbe81a3b018e387463a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "KUID": "ua3b7c92484c4983985df21de115acb6",
+            "name": "uwua3b7c92484c4983985df21de115acb6",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b613d705d8a84382975f0055eb3bad84",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.obj.onTouchValidate(this,x); \nthis.view.forceLayout();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

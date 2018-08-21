@@ -1,0 +1,377 @@
+{
+    "classname": "singleslider",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a8f8507ecce34c9293b9c525d8e6a9f4",
+                    "paramList": [],
+                    "propertyKey": "getSelectedValues",
+                    "pw": {
+                        "displayName": "getSelectedValues",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a725604221e84fc184928b956645acd2",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onChangeEnd",
+                    "pw": {
+                        "displayName": "onChangeEnd",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "db002ffe1a3b459489f3f80f9b7d828a",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onValueChange",
+                    "pw": {
+                        "displayName": "onValueChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Imageoptions"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Read",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "b10d0ab75605480a85940d0cf83a91ac",
+                    "originalPropertyKey": "intervalDisplay",
+                    "propertyIndex": 1,
+                    "propertyKey": "intervalDisplay",
+                    "pw": {
+                        "displayName": "Interval Display",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Read",
+                    "defaultValue": 10,
+                    "group": "General",
+                    "kuid": "eadc6664ae23473d902b4acb9e2c07af",
+                    "originalPropertyKey": "graduations",
+                    "propertyIndex": 2,
+                    "propertyKey": "graduations",
+                    "pw": {
+                        "displayName": "Steps",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Read",
+                    "defaultValue": 10,
+                    "group": "General",
+                    "kuid": "ef2e529e23cc49908e20f8049fcc824c",
+                    "originalPropertyKey": "divisions",
+                    "propertyIndex": 3,
+                    "propertyKey": "divisions",
+                    "pw": {
+                        "displayName": "Interval Count",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 10,
+                    "group": "General",
+                    "kuid": "b1fa12ffb7424e9d9977be6e03de3d3f",
+                    "originalPropertyKey": "endIndex",
+                    "propertyIndex": 4,
+                    "propertyKey": "endIndex",
+                    "pw": {
+                        "displayName": "Default SelectedIndex Value",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d3a0a8d51a7b400d80e363bf7a3a416f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "minValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Minimum Value",
+                        "srcWidget": "lblBegin",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ud9b00478e6541929189d6f7d89ce334"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Imageoptions",
+                    "kuid": "g249cc224a1d40c291517d4e20618cd7",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "sliderSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Slider Source",
+                        "srcWidget": "sliderPin",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "f28c0c929cbe4e50a1855793e8def3bd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j260700ddd184b9fac9ea66aa4bd5623",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "maxValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Maximum Value",
+                        "srcWidget": "lblEnd",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ud6ff85debc74ec191c676a72d443a9b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Imageoptions",
+                    "kuid": "ge0c6f851e1844ce9b5b8b351cb789f2",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "pinSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Pin Source",
+                        "srcWidget": "imgPinIndicatorRight",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ua973da3f27f448aa7598c98360ff68f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Imageoptions",
+                    "kuid": "hf4eeabc90e04a80b8f0e45fa8481288",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 3,
+                    "propertyKey": "srcLeftBullet",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Left Bullet Icon Source",
+                        "srcWidget": "imgBullet1",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "g1c6650619ec44bdb15f6e6dc44bf5b1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Imageoptions",
+                    "kuid": "f3b2d80624a34e22a177f9a41b026871",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 4,
+                    "propertyKey": "srcRightBullet",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "RIght Bullet Icon Source",
+                        "srcWidget": "imgBullet2",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "gc2f6b52ba7a494888fa51972b100e1c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d48de255e2ff4bf6858fb05e77ee88ee",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "sknRange",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Selected Range Skin",
+                        "srcWidget": "lblRange",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ue647be7bb60457695c403f57c902ccc"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "be815dbcd44e4ce497a046051b7f0258",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "sknActiveIndex",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Active Index Skin",
+                        "srcWidget": "lblBegin",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ud9b00478e6541929189d6f7d89ce334"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a9935d82cce3432aa3928718d873b9d5",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "sknInactiveIndex",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Inactive Index Skin",
+                        "srcWidget": "lblEnd",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ud6ff85debc74ec191c676a72d443a9b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cb29b28dbb8f4b95b7167ff252e23818",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 8,
+                    "propertyKey": "sknSelectedIndex",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Selected Index Skin",
+                        "srcWidget": "lblIndicatorRight",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u9debd54a5db4ba2b1e0cf496a66d403"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a55188c39a924694bc088cd614cefd90",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 9,
+                    "propertyKey": "sknBackground",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Background Skin",
+                        "srcWidget": "flxback",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u62c7272bd124cf08f114a8429c4a0b8"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

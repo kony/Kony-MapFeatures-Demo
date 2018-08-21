@@ -11,13 +11,15 @@ The supported features are mentioned below :
   2. Drawing all possible routes from source to destination with different colors.
 
   3. Displaying turn by turn directions of slected path.
+  
+  4. Map Methods like addCircle, addPolygon, addPin, updatePins are used
 
 **To Run This App for Kony Visualizer Enterprise:**
 
 1. Download the project zip file.
 2. Unzip the project to any folder
-3. Launch Kony Visualizer Enterprise version 7.3.
-4. Import the project by selecting the MapFeatures.zip .
+3. Launch Kony Visualizer Enterprise version 8.2.15.
+4. Import the project by selecting the MapFeatureApp.zip .
 5. Build and Run the app.
 
 **To Run This App in Kony Visualizer :**
@@ -25,9 +27,9 @@ The supported features are mentioned below :
 1. Download the project zip file.
 2. Unzip the project to any folder.
 3. Launch Kony Visualizer
-4. Import it into Kony Visualizer Starter Edition 7.3 or above by selecting the MapFeatures.zip .
+4. Import it into Kony Visualizer Starter Edition 8.2.15 or above by selecting the MapFeatureApp.zip .
 5. Run the app.
-6. Launch in Functional Preview through Local account or Cloud.
+6. Launch in App viewer through Local account or Cloud.
 
 Local :
 

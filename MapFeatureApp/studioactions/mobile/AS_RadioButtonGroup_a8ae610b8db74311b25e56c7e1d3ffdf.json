@@ -1,0 +1,17 @@
+{
+    "AS_RadioButtonGroup_a8ae610b8db74311b25e56c7e1d3ffdf": {
+        "id": "AS_RadioButtonGroup_a8ae610b8db74311b25e56c7e1d3ffdf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_b775573a7d834a64bdcc768f2d5a59ec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.addPolygonTomap();",
+            "callbackType": null
+        }]
+    }
+}
