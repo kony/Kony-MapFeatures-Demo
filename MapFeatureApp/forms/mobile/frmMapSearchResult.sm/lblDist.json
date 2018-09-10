@@ -58,7 +58,7 @@
     "isvisible": true,
     "kuid": "eb3e7b599bc941399664db1deb06b557",
     "name": "kony.ui.Label",
-    "parent": "FlexContainer0b914e0d7bc0940",
+    "parent": "flxdeatils",
     "pf": "frmMapSearchResult",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

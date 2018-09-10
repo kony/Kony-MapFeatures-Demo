@@ -118,7 +118,41 @@ define("frmProperties", function() {
                 "renderAsAnchor": false,
                 "textCopyable": false
             });
-            this.add(lblTitle, lblTitleBottomLine, flxBody, headerIconLeft);
+            var FlexContainer0i66bc889522e43 = new kony.ui.FlexContainer({
+                "autogrowMode": kony.flex.AUTOGROW_NONE,
+                "clipBounds": true,
+                "height": "163dp",
+                "id": "FlexContainer0i66bc889522e43",
+                "isVisible": true,
+                "layoutType": kony.flex.FLOW_VERTICAL,
+                "left": "20dp",
+                "right": "20dp",
+                "skin": "slFbox",
+                "top": "70%",
+                "zIndex": 10
+            }, {}, {});
+            FlexContainer0i66bc889522e43.setDefaultUnit(kony.flex.DP);
+            var Label0ed2b71944d6e4b = new kony.ui.Label({
+                "id": "Label0ed2b71944d6e4b",
+                "isVisible": true,
+                "left": "0dp",
+                "right": "20dp",
+                "skin": "lblskin",
+                "text": "The Map Widget on Kony AppPlatform offers various functionalities like adding a circle & polygon, dropping a pin & dropping multiple pins, and having callouts for dropped pins on the map. Tap on the individual items on the page to explore the feature.",
+                "textStyle": {},
+                "top": "6dp",
+                "width": "100%",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {
+                "renderAsAnchor": false,
+                "textCopyable": false
+            });
+            FlexContainer0i66bc889522e43.add(Label0ed2b71944d6e4b);
+            this.add(lblTitle, lblTitleBottomLine, flxBody, headerIconLeft, FlexContainer0i66bc889522e43);
         };
         return [{
             "addWidgets": addWidgetsfrmProperties,
@@ -126,7 +160,7 @@ define("frmProperties", function() {
             "id": "frmProperties",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "slForm"
+            "skin": "frmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

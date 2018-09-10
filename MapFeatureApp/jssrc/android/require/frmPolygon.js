@@ -2,11 +2,11 @@ define("frmPolygon", function() {
     return function(controller) {
         function addWidgetsfrmPolygon() {
             this.setDefaultUnit(kony.flex.DP);
-            var Map1 = new kony.ui.Map({
+            var mapaddPolygon = new kony.ui.Map({
                 "calloutWidth": 80,
                 "defaultPinImage": "pinb.png",
                 "height": "100%",
-                "id": "Map1",
+                "id": "mapaddPolygon",
                 "isVisible": true,
                 "left": "0dp",
                 "provider": constants.MAP_PROVIDER_GOOGLE,
@@ -26,7 +26,7 @@ define("frmPolygon", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_USERWIDGET,
-                "skin": "headerContainerSknMaster",
+                "skin": "konympheaderContainerSknMaster",
                 "top": "0dp",
                 "width": "100%",
                 "zIndex": 1
@@ -39,7 +39,7 @@ define("frmPolygon", function() {
                 "isVisible": true,
                 "left": "72dp",
                 "right": "72dp",
-                "skin": "headerTitleSkinMaster",
+                "skin": "konympheaderTitleSkinMaster",
                 "text": "addPolygon Method",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -59,7 +59,7 @@ define("frmPolygon", function() {
                 "id": "headerIconLeft",
                 "isVisible": true,
                 "left": "4dp",
-                "skin": "headerBackIconSkin",
+                "skin": "konympheaderBackIconSkin",
                 "text": "",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -76,13 +76,13 @@ define("frmPolygon", function() {
                 "textCopyable": false
             });
             var headerButtonLeft = new kony.ui.Button({
-                "focusSkin": "headerIconCartSkin",
+                "focusSkin": "konympheaderIconCartSkin",
                 "height": "100%",
                 "id": "headerButtonLeft",
                 "isVisible": true,
                 "left": "0dp",
                 "onClick": controller.AS_Button_b352d962feb54c5899ab29ab87b36b0e,
-                "skin": "headerButtonBackSkin",
+                "skin": "konympheaderButtonBackSkin",
                 "text": "Back",
                 "top": "0dp",
                 "width": "74dp",
@@ -104,7 +104,7 @@ define("frmPolygon", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "13dp",
                 "right": "13dp",
-                "skin": "flxskin",
+                "skin": "konympflxskin",
                 "zIndex": 1
             }, {}, {});
             flxbottom.setDefaultUnit(kony.flex.DP);
@@ -135,7 +135,7 @@ define("frmPolygon", function() {
                 "untickedImage": "radiogrey.png"
             });
             flxbottom.add(rbtn);
-            this.add(Map1, headerContainer08, flxbottom);
+            this.add(mapaddPolygon, headerContainer08, flxbottom);
         };
         return [{
             "addWidgets": addWidgetsfrmPolygon,
@@ -144,7 +144,7 @@ define("frmPolygon", function() {
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
             "postShow": controller.AS_Form_gbb2bf525d614a07b230114ed560ae04,
-            "skin": "slForm"
+            "skin": "konympfrmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

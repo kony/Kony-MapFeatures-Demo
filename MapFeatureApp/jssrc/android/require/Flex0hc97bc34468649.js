@@ -8,7 +8,7 @@ define("Flex0hc97bc34468649", function() {
             "isVisible": true,
             "layoutType": kony.flex.FREE_FORM,
             "left": "0dp",
-            "skin": "flxSegSkin",
+            "skin": "konympflxSegSkin",
             "top": "0dp",
             "width": "100%"
         }, {}, {});
@@ -18,7 +18,7 @@ define("Flex0hc97bc34468649", function() {
             "id": "lbldistnTime",
             "isVisible": true,
             "right": "0dp",
-            "skin": "lblgreyFont",
+            "skin": "konymplblgreyFont",
             "text": "Label",
             "textStyle": {
                 "letterSpacing": 0,
@@ -39,7 +39,7 @@ define("Flex0hc97bc34468649", function() {
             "id": "lblRoute",
             "isVisible": true,
             "left": "10dp",
-            "skin": "lblgreyFont",
+            "skin": "konymplblgreyFont",
             "text": "Label",
             "textStyle": {
                 "letterSpacing": 0,

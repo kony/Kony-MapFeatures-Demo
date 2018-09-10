@@ -2,7 +2,7 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
-    /** onClick defined for FlexContainer0feb66212d20a47 **/
+    /** onClick defined for flxArrow **/
     AS_FlexContainer_dc6924c5415c42d5810fb11e670ad039: function AS_FlexContainer_dc6924c5415c42d5810fb11e670ad039(eventobject) {
         var self = this;
         this.showRoutes();
@@ -17,7 +17,7 @@ define({
         var self = this;
         this.animateFlexToSmall();
     },
-    /** onTouchEnd defined for Image0d158b2198d4e4b **/
+    /** onTouchEnd defined for imgBack **/
     AS_Image_baf468b0aa204a519542e1bbebb85c22: function AS_Image_baf468b0aa204a519542e1bbebb85c22(eventobject, x, y) {
         var self = this;
         var ntf = new kony.mvc.Navigation("frmSearchRoutes");
@@ -27,10 +27,5 @@ define({
     AS_Form_b10f9d240bbd45daac9e7841ee1547dd: function AS_Form_b10f9d240bbd45daac9e7841ee1547dd(eventobject) {
         var self = this;
         kony.application.destroyForm("frmMapSearchResult");
-    },
-    /** postShow defined for frmMapSearchResult **/
-    AS_Form_e6ba19b34a524f91a2dae9ea04c8cf46: function AS_Form_e6ba19b34a524f91a2dae9ea04c8cf46(eventobject) {
-        var self = this;
-        this.view.flxRoutes.doLayout = this.doLayoutCallback;
     }
 });

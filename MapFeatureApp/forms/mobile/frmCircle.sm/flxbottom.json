@@ -40,7 +40,7 @@
         "value": "50%"
     },
     "children": [
-        "RadioButtonGroup0b6c5b64beb7940",
+        "rbgDisplayPlace",
         "singleslider"
     ],
     "clipbounds": true,

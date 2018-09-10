@@ -2,24 +2,24 @@ define("frmAddPin", function() {
     return function(controller) {
         function addWidgetsfrmAddPin() {
             this.setDefaultUnit(kony.flex.DP);
-            var map2 = new com.konymp.map2({
+            var mapAddpin = new com.konymp.map2({
                 "clipBounds": true,
                 "height": "100%",
-                "id": "map2",
+                "id": "mapAddpin",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_DEFAULT,
-                "skin": "CopyCopyslFbox039bdabf69a4946",
+                "skin": "konympslFbox0f3b2f0def73b4c",
                 "top": "0dp",
                 "width": "100%"
             }, {}, {});
-            map2.bottom = null;
-            map2.centerX = null;
-            map2.centerY = null;
-            map2.left = "0dp";
-            map2.right = null;
-            map2.top = "0dp";
+            mapAddpin.bottom = null;
+            mapAddpin.centerX = null;
+            mapAddpin.centerY = null;
+            mapAddpin.left = "0dp";
+            mapAddpin.right = null;
+            mapAddpin.top = "0dp";
             var headerContainer08 = new kony.ui.FlexContainer({
                 "clipBounds": true,
                 "height": "56dp",
@@ -28,7 +28,7 @@ define("frmAddPin", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_USERWIDGET,
-                "skin": "headerContainerSknMaster",
+                "skin": "konympheaderContainerSknMaster",
                 "top": "0dp",
                 "width": "100%",
                 "zIndex": 1
@@ -41,7 +41,7 @@ define("frmAddPin", function() {
                 "isVisible": true,
                 "left": "72dp",
                 "right": "72dp",
-                "skin": "headerTitleSkinMaster",
+                "skin": "konympheaderTitleSkinMaster",
                 "text": "addPin Methods",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -61,7 +61,7 @@ define("frmAddPin", function() {
                 "id": "headerIconLeft",
                 "isVisible": true,
                 "left": "4dp",
-                "skin": "headerBackIconSkin",
+                "skin": "konympheaderBackIconSkin",
                 "text": "",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -78,13 +78,13 @@ define("frmAddPin", function() {
                 "textCopyable": false
             });
             var headerButtonLeft = new kony.ui.Button({
-                "focusSkin": "headerIconCartSkin",
+                "focusSkin": "konympheaderIconCartSkin",
                 "height": "100%",
                 "id": "headerButtonLeft",
                 "isVisible": true,
                 "left": "0dp",
                 "onClick": controller.AS_Button_a240aaa04ba447688597579b4055ea57,
-                "skin": "headerButtonBackSkin",
+                "skin": "konympheaderButtonBackSkin",
                 "text": "Back",
                 "top": "0dp",
                 "width": "74dp",
@@ -96,7 +96,7 @@ define("frmAddPin", function() {
                 "paddingInPixel": false
             }, {});
             headerContainer08.add(headerTitleLabel, headerIconLeft, headerButtonLeft);
-            this.add(map2, headerContainer08);
+            this.add(mapAddpin, headerContainer08);
         };
         return [{
             "addWidgets": addWidgetsfrmAddPin,
@@ -104,7 +104,7 @@ define("frmAddPin", function() {
             "id": "frmAddPin",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "slForm"
+            "skin": "konympfrmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

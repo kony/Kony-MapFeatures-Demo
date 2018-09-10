@@ -38,6 +38,7 @@ function skinsInit() {
     CopyslFbox058c03a1db21844 = "CopyslFbox058c03a1db21844";
     CopyslFbox0af6cb4f97d7a4f = "CopyslFbox0af6cb4f97d7a4f";
     CopyslFbox0bf4ab50aba0942 = "CopyslFbox0bf4ab50aba0942";
+    CopyslFbox0c459edb622c945 = "CopyslFbox0c459edb622c945";
     CopyslFbox0f54e6831b2364d = "CopyslFbox0f54e6831b2364d";
     CopyslFbox0gb7066b696894a = "CopyslFbox0gb7066b696894a";
     CopyslFbox0h2b67e9e148e4d = "CopyslFbox0h2b67e9e148e4d";
@@ -46,6 +47,7 @@ function skinsInit() {
     CopyslFbox2 = "CopyslFbox2";
     CopyslFbox4 = "CopyslFbox4";
     CopyslForm01195737ec35e4c = "CopyslForm01195737ec35e4c";
+    CopyslForm0e288c5e0c1944a = "CopyslForm0e288c5e0c1944a";
     CopyslForm1 = "CopyslForm1";
     CopyslForm2 = "CopyslForm2";
     CopyslForm4 = "CopyslForm4";
@@ -72,6 +74,7 @@ function skinsInit() {
     flxSegSkin = "flxSegSkin";
     flxskin = "flxskin";
     FRMKLG = "FRMKLG";
+    frmskin = "frmskin";
     headerBackIconSkin = "headerBackIconSkin";
     headerButtonBackSkin = "headerButtonBackSkin";
     headerButtonClearSkin = "headerButtonClearSkin";
@@ -137,11 +140,16 @@ function skinsInit() {
     konympslRichText = "konympslRichText";
     konympslRichText0d02285182d7f42 = "konympslRichText0d02285182d7f42";
     konympslTitleBar3 = "konympslTitleBar3";
+    lblBold = "lblBold";
     LBLFEATURE = "LBLFEATURE";
+    lblgreyFont = "lblgreyFont";
     LBLLINE = "LBLLINE";
     lblskin = "lblskin";
+    lblskindark = "lblskindark";
     lbltextTitle = "lbltextTitle";
     lbltitleskn = "lbltitleskn";
+    lblWhiteLine = "lblWhiteLine";
+    line2 = "line2";
     seg2Focus = "seg2Focus";
     seg2Normal = "seg2Normal";
     SEGFEATURES = "SEGFEATURES";

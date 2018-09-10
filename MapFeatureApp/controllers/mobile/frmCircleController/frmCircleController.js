@@ -1,41 +1,51 @@
 define({ 
-
- //Type your controller code here 
+  /**
+			 * @function addCircletoMapLoc
+			 * @description adds circle to map at the give location and radius
+			 * @private
+			 * @param latValue-> lattitude
+			 * @param lonValue-> longitude
+			 * @param rad-> radius
+			 */
   addCircletoMapLoc:function(latValue,lonValue,rad){
-    	var testdata = 
-    {
-      id:"circleId",
-      centerLocation :
-      {
-        lat:latValue,
-        lon:lonValue},
-      navigatetoZoom:true,
-      radius:rad,
-      circleConfig:
-      {
-        lineColor:"00A0DDFF",
-        lineWidth:3
-      },
-      showCenterPin:true
-    };
-	this.view.Map1.addCircle(testdata);
+    try{
+      var testdata = 
+          {
+            id:"circleId",
+            centerLocation :
+            {
+              lat:latValue,
+              lon:lonValue},
+            navigatetoZoom:true,
+            radius:rad,
+            circleConfig:
+            {
+              lineColor:"00A0DDFF",
+              lineWidth:3
+            },
+            showCenterPin:true
+          };
+      this.view.mapAddCircle.addCircle(testdata);
+    }catch(error){
+      kony.print("frmCircle Controller"+JSON.stringify(error));
+    }
   },
-//   changeRadius:function(){
-//     this.view.Map1.removeCircle("circleId");
-//     var selectedValues= parseInt(this.view.singleslider.getSelectedValues());
-//     var getRadiobtnKey=this.view.RadioButtonGroup0b6c5b64beb7940.selectedKey;
-//     	//alert(selectedValues);
-//   },
-  radiobuttonClick(){
-    this.view.Map1.removeCircle("circleId");
-    var getRadiobtnKey=this.view.RadioButtonGroup0b6c5b64beb7940.selectedKey;
-    var selectedValues= parseInt(this.view.singleslider.getSelectedValues());
-   //alert(typeof(parseInt(selectedValues)));
-    if(getRadiobtnKey==="ny"){
-      this.addCircletoMapLoc("40.7127753","-74.0059728",selectedValues);
-    }else{
-       this.addCircletoMapLoc("38.9071923","-77.0368707",selectedValues);
+  /**
+			 * @function selectPlace
+			 * @description adds circle for the selected place
+			 */
+  selectPlace(){
+    try{
+      this.view.mapAddCircle.removeCircle("circleId");
+      var getRadiobtnKey=this.view.rbgDisplayPlace.selectedKey;
+      var selectedSliderValue= parseInt(this.view.singleslider.getSelectedValues());
+      if(getRadiobtnKey==="ny"){
+        this.addCircletoMapLoc(MAPCONSTANTS.circleLat1,MAPCONSTANTS.circleLon1,selectedSliderValue);
+      }else{
+        this.addCircletoMapLoc(MAPCONSTANTS.circleLat2,MAPCONSTANTS.circleLon2,selectedSliderValue);
+      }
+    }catch(error){
+      kony.print("frmCircle Controller"+JSON.stringify(error));
     }
   }
-	
- });
+});

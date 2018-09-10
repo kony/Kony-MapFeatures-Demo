@@ -30,11 +30,10 @@
     },
     "canUpdateUI": true,
     "children": [
-        "map1",
+        "mapSearchRoutes",
         "flxRoutes",
         "flxOverlay",
-        "FlexContainer0b27f9f10d83043",
-        "Image0d35ee58c2d2e42"
+        "flxTitle"
     ],
     "containerweight": 100,
     "controllerInfo": {

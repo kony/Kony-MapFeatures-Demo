@@ -44,7 +44,7 @@
     "isvisible": true,
     "kuid": "h73443b2aa024dec9c5e4de8c0b611f2",
     "name": "kony.ui.Button",
-    "parent": "FlexContainer0b7cf2699669249",
+    "parent": "flxMain",
     "pf": "frmSearchRoutes",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

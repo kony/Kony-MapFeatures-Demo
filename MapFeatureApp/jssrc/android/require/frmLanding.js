@@ -7,7 +7,7 @@ define("frmLanding", function() {
                 "id": "lblTitle",
                 "isVisible": true,
                 "left": "0%",
-                "skin": "lbltextTitle",
+                "skin": "konymplbltextTitle",
                 "text": "Map Feature",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -28,7 +28,7 @@ define("frmLanding", function() {
                 "id": "lblTitleBottomLine",
                 "isVisible": true,
                 "left": "0%",
-                "skin": "LBLLINE",
+                "skin": "konympLBLLINE",
                 "textStyle": {
                     "letterSpacing": 0,
                     "strikeThrough": false
@@ -51,7 +51,7 @@ define("frmLanding", function() {
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0%",
-                "skin": "FLXFAFAFA",
+                "skin": "konympFLXFAFAFA",
                 "top": "10%",
                 "width": "100%",
                 "zIndex": 1
@@ -74,7 +74,7 @@ define("frmLanding", function() {
                 "pageOffDotImage": "pageoffdot_3.png",
                 "pageOnDotImage": "pageondot_3.png",
                 "retainSelection": false,
-                "rowSkin": "SEGFEATURES",
+                "rowSkin": "konympSEGFEATURES",
                 "rowTemplate": "flxFeatureList",
                 "scrollingEvents": {},
                 "sectionHeaderSkin": "sliPhoneSegmentHeader",
@@ -96,27 +96,10 @@ define("frmLanding", function() {
                 "paddingInPixel": false
             }, {});
             flxBody.add(segFeatureOptions);
-            var Button0c4ad1989651943 = new kony.ui.Button({
-                "bottom": "4%",
-                "focusSkin": "btnimg",
-                "height": "70dp",
-                "id": "Button0c4ad1989651943",
-                "isVisible": false,
-                "onClick": controller.AS_Button_ca7c717eb8c44fc8ae09b76240bedc22,
-                "right": "4%",
-                "skin": "btnimg",
-                "width": "70dp",
-                "zIndex": 10
-            }, {
-                "contentAlignment": constants.CONTENT_ALIGN_CENTER,
-                "displayText": true,
-                "padding": [0, 0, 0, 0],
-                "paddingInPixel": false
-            }, {});
-            var FlexContainer0i66bc889522e43 = new kony.ui.FlexContainer({
+            var flxDescrptn = new kony.ui.FlexContainer({
                 "clipBounds": true,
                 "height": "220dp",
-                "id": "FlexContainer0i66bc889522e43",
+                "id": "flxDescrptn",
                 "isVisible": true,
                 "layoutType": kony.flex.FLOW_VERTICAL,
                 "left": "20dp",
@@ -125,13 +108,13 @@ define("frmLanding", function() {
                 "top": "40%",
                 "zIndex": 10
             }, {}, {});
-            FlexContainer0i66bc889522e43.setDefaultUnit(kony.flex.DP);
-            var Label0ed2b71944d6e4b = new kony.ui.Label({
-                "id": "Label0ed2b71944d6e4b",
+            flxDescrptn.setDefaultUnit(kony.flex.DP);
+            var lblDescptn = new kony.ui.Label({
+                "id": "lblDescptn",
                 "isVisible": true,
                 "left": "0dp",
                 "right": "20dp",
-                "skin": "lblskin",
+                "skin": "konymplblskin",
                 "text": "Use the Map Feature App to explore the capabilities offered for Map Features on the Kony AppPlatform. This app takes you through various functionalities and usage details for Map Widget and Map API. Tap on the buttons on the page to explore widgets and APIs as per your requirement.",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -147,8 +130,8 @@ define("frmLanding", function() {
             }, {
                 "textCopyable": false
             });
-            FlexContainer0i66bc889522e43.add(Label0ed2b71944d6e4b);
-            this.add(lblTitle, lblTitleBottomLine, flxBody, Button0c4ad1989651943, FlexContainer0i66bc889522e43);
+            flxDescrptn.add(lblDescptn);
+            this.add(lblTitle, lblTitleBottomLine, flxBody, flxDescrptn);
         };
         return [{
             "addWidgets": addWidgetsfrmLanding,
@@ -156,7 +139,7 @@ define("frmLanding", function() {
             "id": "frmLanding",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "FRMKLG"
+            "skin": "konympfrmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

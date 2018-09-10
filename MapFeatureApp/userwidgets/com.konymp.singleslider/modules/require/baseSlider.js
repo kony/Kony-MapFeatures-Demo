@@ -231,7 +231,7 @@ define(function () {
 				try {
 					for (var i = 0; i <= cont._divisions; i++) {
 						var obj = cont._labelArray[i].label;
-						obj.skin = "numberLineSkn";
+						obj.skin = "konympnumberLineSkn";
 						obj.skin = cont.sknInactiveIndex;
 						if (parseFloat(cont.view.flxLeft.centerX) <= parseFloat(obj.centerX) && parseFloat(obj.centerX) <= parseFloat(cont.view.flxRight.centerX)) {
 							obj.skin = cont.sknActiveIndex;

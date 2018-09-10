@@ -1,12 +1,6 @@
 define({
     appInit: function(params) {
         skinsInit();
-        kony.mvc.registry.add("com.konymp.knowledgeframework", "knowledgeframework", "knowledgeframeworkController");
-        kony.application.registerMaster({
-            "namespace": "com.konymp",
-            "classname": "knowledgeframework",
-            "name": "com.konymp.knowledgeframework"
-        });
         kony.mvc.registry.add("com.konymp.map2", "map2", "map2Controller");
         kony.application.registerMaster({
             "namespace": "com.konymp",
@@ -33,13 +27,12 @@ define({
         kony.mvc.registry.add("frmAddPin", "frmAddPin", "frmAddPinController");
         kony.mvc.registry.add("frmCircle", "frmCircle", "frmCircleController");
         kony.mvc.registry.add("frmClustered", "frmClustered", "frmClusteredController");
-        kony.mvc.registry.add("frmKnowledgeFramework", "frmKnowledgeFramework", "frmKnowledgeFrameworkController");
         kony.mvc.registry.add("frmLanding", "frmLanding", "frmLandingController");
         kony.mvc.registry.add("frmMapSearchResult", "frmMapSearchResult", "frmMapSearchResultController");
+        kony.mvc.registry.add("frmMultiplePinsDockedCallout", "frmMultiplePinsDockedCallout", "frmMultiplePinsDockedCalloutController");
         kony.mvc.registry.add("frmPolygon", "frmPolygon", "frmPolygonController");
         kony.mvc.registry.add("frmProperties", "frmProperties", "frmPropertiesController");
         kony.mvc.registry.add("frmSearchRoutes", "frmSearchRoutes", "frmSearchRoutesController");
-        kony.mvc.registry.add("multiplePinsDockedCallout", "multiplePinsDockedCallout", "multiplePinsDockedCalloutController");
         setAppBehaviors();
     },
     postAppInitCallBack: function(eventObj) {},

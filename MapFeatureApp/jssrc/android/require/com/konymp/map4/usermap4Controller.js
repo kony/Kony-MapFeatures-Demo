@@ -7,7 +7,7 @@ define(function() {
                 name: "pin1",
                 lat: "40.748817",
                 lon: "-73.985428",
-                image: "blue_pin.png",
+                image: "kony_mp_map04_blue_pin.png",
                 lblheading: "Bikermann Davis",
                 lbldistance: "1.2 Miles",
                 dec: "428 Cristopher Stravenue Apt. 495",
@@ -17,7 +17,7 @@ define(function() {
                 name: "pin2",
                 lat: "42.361145",
                 lon: "-71.057083",
-                image: "red_pin.png",
+                image: "kony_mp_map04_red_pin.png",
                 lblheading: "The Westin",
                 lbldistance: "10 Miles",
                 dec: "International Business Park",
@@ -27,7 +27,7 @@ define(function() {
                 name: "pin3",
                 lat: "39.952583",
                 lon: "-75.165222",
-                image: "red_pin.png",
+                image: "kony_mp_map04_red_pin.png",
                 lblheading: "JW Marriott",
                 lbldistance: "11 Miles",
                 dec: "160 Central Park S",
@@ -38,10 +38,10 @@ define(function() {
         pinClicked: function(location) {
             this.view.mapView.updatePins([{
                 id: this.previous,
-                image: "red_pin.png"
+                image: "kony_mp_map04_red_pin.png"
             }, {
                 id: location.id,
-                image: "blue_pin.png"
+                image: "kony_mp_map04_blue_pin.png"
             }, ]);
             this.previous = location.id;
             this.view.lblHeading.text = location.lblheading;

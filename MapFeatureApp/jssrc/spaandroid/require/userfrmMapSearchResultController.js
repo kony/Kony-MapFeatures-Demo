@@ -11,10 +11,7 @@ define({
     onNavigate: function(rbgSelectedValue) {
         this.index = rbgSelectedValue;
         this.callSearchRoutefunc();
-        var deviceHeight = kony.os.deviceInfo().screenHeight;
-        var topValue = deviceHeight - 95;
-        //this.view.flxRoutes.top=topValue+"dp";
-        this.view.hdrDest.text = "Dest: " + this.index;
+        this.view.hdrDest.text = this.index;
     },
     callSearchRoutefunc: function() {
         var searchCriteriaObj = {
@@ -36,13 +33,13 @@ define({
             alert('Please select any one destination');
         }
         switch (this.index) {
-            case "Kony_Foster City":
+            case "Kony Foster City":
                 searchCriteriaObj.destination = {
                     lat: 37.5608292,
                     lon: -122.2710158
                 };
                 break;
-            case "Kony_Austin":
+            case "Kony Austin":
                 searchCriteriaObj.destination = {
                     lat: 30.3158671,
                     lon: -97.868505
@@ -62,6 +59,7 @@ define({
         alert("Search result failed");
     },
     displySearchRoutes: function(Searchroutes) {
+        kony.print("Searchroutes: " + Searchroutes);
         kony.application.showLoadingScreen("formskin", "LoadingScreen...", constants.LOADING_SCREEN_POSITION_ONLY_CENTER, false, true, {
             enableMenuKey: true,
             enableBackKey: true,
@@ -81,22 +79,24 @@ define({
     },
     SegRouteClick: function() {
         var rowdata = this.view.segRoutes.selectedRowItems;
-        var getRouteId = parseInt(rowdata[0].Label0e4341295167a4e.slice(5, 6));
-        var rowIndex = getRouteId - 1;
         //alert(rowdata);
+        var getRouteId = parseInt(rowdata[0].key.slice(5, 6));
+        var rowIndex = getRouteId - 1;
         //var data={};    
         for (var i = 0; i < this.routeId.length; i++) {
-            if (rowIndex === i) {} else {
+            if (rowIndex === i) {
+                return;
+            } else {
                 this.drawRoute(this.routeId[i], this.polylinePoints[i], this.routeColors[1]);
             }
         }
         this.drawRoute(this.routeId[rowIndex], this.polylinePoints[rowIndex], this.routeColors[0]);
         this.segData(rowIndex);
-        this.view.lblDist.text = this.kms[rowIndex] + "kms";
+        this.view.lblDist.text = this.kms[rowIndex] + " Miles";
         if (Math.floor(this.hrs[rowIndex]) <= 0) {
-            this.view.lblTime.text = Math.round(this.min[rowIndex]) + " mins";
+            this.view.lblTime.text = Math.round(this.min[rowIndex]) + " min";
         } else {
-            this.view.lblTime.text = Math.round(this.hrs[rowIndex]) + " hrs";
+            this.view.lblTime.text = Math.round(this.hrs[rowIndex]) + " hr";
         }
         this.animateFlexToSmall();
     },
@@ -105,30 +105,40 @@ define({
         var data2 = [];
         var tmp = {};
         var tmp2 = {};
+        var tmp3 = {};
         this.view.lblDest.text = this.index;
         for (var i = this.routeId.length - 1; i >= 0; i--) {
             this.min[i] = this.duration[i] / 60;
             this.hrs[i] = this.duration[i] / 3600;
-            this.kms[i] = Math.round(this.distance[i] / 1000);
-            this.view.lblDist.text = this.kms[i] + "kms";
+            this.kms[i] = Math.round(this.distance[i] * 0.000621371192);
+            this.view.lblDist.text = this.kms[i] + " Miles";
             if (Math.floor(this.hrs[i]) <= 0) {
-                this.view.lblTime.text = Math.round(this.min[i]) + " mins";
+                this.view.lblTime.text = Math.round(this.min[i]) + " min";
                 tmp = {
+                    "key": this.routeId[i],
                     "lblRoute": "Route" + (i + 1),
-                    "lbldistnTime": this.kms[i] + " kms," + Math.round(this.min[i]) + " mins"
+                    "lbldistnTime": this.kms[i] + " Miles, " + Math.round(this.min[i]) + " min"
                 };
             } else {
-                this.view.lblTime.text = Math.round(this.hrs[i]) + " hrs";
+                this.view.lblTime.text = Math.round(this.hrs[i]) + " hr";
                 tmp = {
+                    "key": this.routeId[i],
                     "lblRoute": "Route" + (i + 1),
-                    "lbldistnTime": this.kms[i] + " kms" + Math.round(this.hrs[i]) + " hrs"
+                    "lbldistnTime": this.kms[i] + " Miles, " + Math.round(this.hrs[i]) + " hr"
                 };
             }
-            if (rowindex !== i) data.push(tmp);
+            if (rowindex !== i) {
+                data.push(tmp);
+            }
         }
-        for (var i = 0; i <= data.length; i++) {
+        for (var j = 0; j <= data.length; j++) {
             tmp2 = data.pop();
-            data2.push(tmp2);
+            tmp3 = {
+                "key": tmp2.key,
+                "lblRoute": "Route" + (j + 2),
+                "lbldistnTime": tmp2.lbldistnTime
+            };
+            data2.push(tmp3);
         }
         this.view.segRoutes.setData(data2);
         //this.view.flxRoutes.forceLayout();
@@ -136,13 +146,12 @@ define({
     drawRoute: function(routeid, polyPoints, color) {
         var steps = polyPoints;
         kony.print("################The polyline points " + steps);
-        //kony.print(steps);
-        ei = steps.length - 1;
+        var ei = steps.length - 1;
         var startLoc = {
             lat: steps[0].lat,
             lon: steps[0].lon,
             image: {
-                source: "blue_pin.png",
+                source: "location_icon_blue.png",
                 anchor: kony.map.PIN_IMG_ANCHOR_CENTER
             }
         };
@@ -150,7 +159,7 @@ define({
             lat: steps[ei].lat,
             lon: steps[ei].lon,
             image: {
-                source: "red_pin.png",
+                source: "location_icon_red.png",
                 anchor: kony.map.PIN_IMG_ANCHOR_CENTER
             }
         };
@@ -181,11 +190,11 @@ define({
             "fillMode": kony.anim.FILL_MODE_FORWARDS,
             "duration": 0.4
         }, {});
-        this.view.flxOverlay.isVisible = true;
+        //this.view.flxOverlay.isVisible=true;
     },
     animateFlexToSmall: function() {
         var deviceHeight = kony.os.deviceInfo().screenHeight;
-        var topValue = deviceHeight - 135;
+        var topValue = deviceHeight - 148;
         this.view.flxRoutes.animate(kony.ui.createAnimation({
             "100": {
                 //"top": "86.5%",
@@ -201,7 +210,8 @@ define({
             "fillMode": kony.anim.FILL_MODE_FORWARDS,
             "duration": 0.4
         }, {});
-        this.view.flxOverlay.isVisible = false;
+        this.view.imgArrow.src = "arrow_right.png";
+        this.view.segRoutes.isVisible = false;
     },
     showRoutes: function() {
         if (this.view.imgArrow.src == "arrow_right.png") {
@@ -210,8 +220,6 @@ define({
             this.view.segRoutes.isVisible = true;
             this.animateFlexToFull();
         } else {
-            this.view.imgArrow.src = "arrow_right.png";
-            this.view.segRoutes.isVisible = false;
             this.animateFlexToSmall();
         }
     }

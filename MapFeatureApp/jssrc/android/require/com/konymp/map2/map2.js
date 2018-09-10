@@ -10,7 +10,7 @@ define(function() {
             "left": "0dp",
             "postShow": controller.AS_FlexContainer_ba90b9ffa2fd4f67bf0d05b62731badf,
             "preShow": controller.AS_FlexContainer_ccb30b09969846ed98bf185b0eb32cc8,
-            "skin": "CopyCopyslFbox039bdabf69a4946",
+            "skin": "konympslFbox0f3b2f0def73b4c",
             "top": "0dp",
             "width": "100%"
         }, {}, {});

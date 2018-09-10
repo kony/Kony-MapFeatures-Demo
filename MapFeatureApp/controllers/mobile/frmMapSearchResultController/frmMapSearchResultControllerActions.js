@@ -2,7 +2,7 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
-    /** onClick defined for FlexContainer0feb66212d20a47 **/
+    /** onClick defined for flxArrow **/
     AS_FlexContainer_dc6924c5415c42d5810fb11e670ad039: function AS_FlexContainer_dc6924c5415c42d5810fb11e670ad039(eventobject) {
         var self = this;
         this.showRoutes();
@@ -17,7 +17,7 @@ define({
         var self = this;
         this.animateFlexToSmall();
     },
-    /** onTouchEnd defined for Image0d158b2198d4e4b **/
+    /** onTouchEnd defined for imgBack **/
     AS_Image_baf468b0aa204a519542e1bbebb85c22: function AS_Image_baf468b0aa204a519542e1bbebb85c22(eventobject, x, y) {
         var self = this;
         var ntf = new kony.mvc.Navigation("frmSearchRoutes");

@@ -4,7 +4,7 @@ define("frmCircle", function() {
             this.setDefaultUnit(kony.flex.DP);
             var Map1 = new kony.ui.Map({
                 "calloutWidth": 80,
-                "defaultPinImage": "pinb.png",
+                "defaultPinImage": "kony_mp_map04_red_pin.png",
                 "height": "100%",
                 "id": "Map1",
                 "isVisible": true,
@@ -106,7 +106,7 @@ define("frmCircle", function() {
             flxbottom.setDefaultUnit(kony.flex.DP);
             var RadioButtonGroup0b6c5b64beb7940 = new kony.ui.RadioButtonGroup({
                 "centerX": "50%",
-                "height": "45%",
+                "height": "31.58%",
                 "id": "RadioButtonGroup0b6c5b64beb7940",
                 "isVisible": true,
                 "left": "18dp",
@@ -118,7 +118,7 @@ define("frmCircle", function() {
                 "selectedKey": "ny",
                 "selectedKeyValue": ["ny", "New York"],
                 "skin": "slRadioButtonGroup",
-                "top": "0dp",
+                "top": "13dp",
                 "width": "90%",
                 "zIndex": 1
             }, {
@@ -156,7 +156,7 @@ define("frmCircle", function() {
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
             "postShow": controller.AS_Form_debafff8692a4e33acc0647329bbd239,
-            "skin": "slForm"
+            "skin": "frmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

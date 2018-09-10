@@ -15,12 +15,12 @@ define("flxFeatureList", function() {
             "centerX": "50%",
             "centerY": "50%",
             "clipBounds": true,
-            "focusSkin": "FLXFEATUREFOCUS",
+            "focusSkin": "konympFLXFEATUREFOCUS",
             "height": "80%",
             "id": "flxFeatureContainer",
             "isVisible": true,
             "layoutType": kony.flex.FREE_FORM,
-            "skin": "FLXFEATUREBOX",
+            "skin": "konympFLXFEATUREBOX",
             "width": "92%",
             "zIndex": 15
         }, {}, {});
@@ -30,7 +30,7 @@ define("flxFeatureList", function() {
             "centerY": "50%",
             "id": "lblFeature",
             "isVisible": true,
-            "skin": "LBLFEATURE",
+            "skin": "konympLBLFEATURE",
             "text": "Feature Name",
             "textStyle": {
                 "letterSpacing": 0,

@@ -64,7 +64,7 @@ define("frmLanding", function() {
                 "height": "80%",
                 "id": "segFeatureOptions",
                 "isVisible": true,
-                "left": "0%",
+                "left": "0.00%",
                 "needPageIndicator": true,
                 "onRowClick": controller.AS_Segment_df34f2ee6d1344f3a84af71d0c4b0579,
                 "pageOffDotImage": "pageoffdot_3.png",
@@ -78,7 +78,7 @@ define("frmLanding", function() {
                 "separatorRequired": false,
                 "separatorThickness": 0,
                 "showScrollbars": false,
-                "top": "2%",
+                "top": "2.00%",
                 "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
                 "widgetDataMap": {
                     "flxFeatureContainer": "flxFeatureContainer",
@@ -97,7 +97,7 @@ define("frmLanding", function() {
                 "focusSkin": "btnimg",
                 "height": "70dp",
                 "id": "Button0c4ad1989651943",
-                "isVisible": true,
+                "isVisible": false,
                 "onClick": controller.AS_Button_ca7c717eb8c44fc8ae09b76240bedc22,
                 "right": "4%",
                 "skin": "btnimg",
@@ -109,7 +109,40 @@ define("frmLanding", function() {
                 "padding": [0, 0, 0, 0],
                 "paddingInPixel": false
             }, {});
-            this.add(lblTitle, lblTitleBottomLine, flxBody, Button0c4ad1989651943);
+            var FlexContainer0i66bc889522e43 = new kony.ui.FlexContainer({
+                "clipBounds": true,
+                "height": "220dp",
+                "id": "FlexContainer0i66bc889522e43",
+                "isVisible": true,
+                "layoutType": kony.flex.FLOW_VERTICAL,
+                "left": "20dp",
+                "right": "20dp",
+                "skin": "slFbox",
+                "top": "40%",
+                "zIndex": 10
+            }, {}, {});
+            FlexContainer0i66bc889522e43.setDefaultUnit(kony.flex.DP);
+            var Label0ed2b71944d6e4b = new kony.ui.Label({
+                "id": "Label0ed2b71944d6e4b",
+                "isVisible": true,
+                "left": "0dp",
+                "right": "20dp",
+                "skin": "lblskin",
+                "text": "Use the Map Feature App to explore the capabilities offered for Map Features on the Kony AppPlatform. This app takes you through various functionalities and usage details for Map Widget and Map API. Tap on the buttons on the page to explore widgets and APIs as per your requirement.",
+                "textStyle": {},
+                "top": "6dp",
+                "width": "100%",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {
+                "renderAsAnchor": false,
+                "textCopyable": false
+            });
+            FlexContainer0i66bc889522e43.add(Label0ed2b71944d6e4b);
+            this.add(lblTitle, lblTitleBottomLine, flxBody, Button0c4ad1989651943, FlexContainer0i66bc889522e43);
         };
         return [{
             "addWidgets": addWidgetsfrmLanding,
@@ -117,7 +150,7 @@ define("frmLanding", function() {
             "id": "frmLanding",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "FRMKLG"
+            "skin": "frmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

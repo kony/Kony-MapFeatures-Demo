@@ -14,6 +14,8 @@ define("multiplePinsDockedCallout", function() {
                 "top": "0dp",
                 "width": "100%"
             }, {}, {});
+            map4.lblHeading.text = "Bickermann Davis";
+            map4.lblReviews.left = "53%";
             map4.bottom = null;
             map4.centerX = null;
             map4.centerY = null;
@@ -100,7 +102,7 @@ define("multiplePinsDockedCallout", function() {
             "id": "multiplePinsDockedCallout",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "slForm"
+            "skin": "frmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__c23b70c1c16b4ade8d554b034de20385",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "this.radiobuttonClick();",
+            "codeSnippet": "this.selectPlace();",
             "parentId": null,
             "callbackType": null
         }]

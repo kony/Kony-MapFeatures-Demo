@@ -6,7 +6,7 @@ define("flexAPIs", function() {
             "id": "flexAPIs",
             "isVisible": true,
             "layoutType": kony.flex.FLOW_VERTICAL,
-            "skin": "konympkonympslFbox5"
+            "skin": "konympslFbox0f3b2f0def73b4c"
         }, {}, {});
         flexAPIs.setDefaultUnit(kony.flex.DP);
         var flexFreeAPI = new kony.ui.FlexContainer({
@@ -16,7 +16,7 @@ define("flexAPIs", function() {
             "isVisible": true,
             "layoutType": kony.flex.FREE_FORM,
             "left": "0%",
-            "skin": "konympkonympslFbox5",
+            "skin": "konympslFbox0f3b2f0def73b4c",
             "top": "0dp",
             "width": "100%",
             "zIndex": 1
@@ -47,7 +47,7 @@ define("flexAPIs", function() {
             "id": "imgLeftAPI",
             "isVisible": true,
             "right": "4%",
-            "skin": "konympslImage0d81a3bc6f2ff42",
+            "skin": "slImage",
             "src": "chevron.png",
             "top": "12dp",
             "width": "20dp",

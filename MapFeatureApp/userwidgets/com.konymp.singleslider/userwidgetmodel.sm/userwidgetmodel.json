@@ -51,7 +51,7 @@
     "prevPlatform": "iphone",
     "retainscrollposition": false,
     "shellCSS": "iOS_iPhoneX",
-    "titleBarSkin": "s365db313a0848cd9c823302c979f7ca",
+    "titleBarSkin": "",
     "titlebar": true,
     "type": 3,
     "wType": "Form"

@@ -30,7 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "Map1",
+        "mapaddPolygon",
         "headerContainer08",
         "flxbottom"
     ],

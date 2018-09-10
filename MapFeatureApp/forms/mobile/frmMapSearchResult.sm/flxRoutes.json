@@ -44,8 +44,8 @@
         "value": "50%"
     },
     "children": [
-        "FlexContainer0f0e1e43c7ef844",
-        "CopylblTitleBottomLine0dd95bd96e69943",
+        "flxDestDetails",
+        "lblLine",
         "segRoutes"
     ],
     "clipbounds": true,

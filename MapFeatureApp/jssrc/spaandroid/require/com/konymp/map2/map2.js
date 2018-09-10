@@ -18,7 +18,7 @@ define(function() {
         var mapView = new kony.ui.Map({
             "calloutTemplate": "flxParent",
             "calloutWidth": 80,
-            "defaultPinImage": "kony_mp_map02_red_pin.png",
+            "defaultPinImage": "map_pin_red_2.png",
             "height": "100%",
             "id": "mapView",
             "isVisible": true,

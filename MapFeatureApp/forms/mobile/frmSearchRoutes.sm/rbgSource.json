@@ -67,7 +67,7 @@
     ],
     "name": "kony.ui.RadioButtonGroup",
     "paddinginpixel": false,
-    "parent": "FlexContainer0b7cf2699669249",
+    "parent": "flxMain",
     "pf": "frmSearchRoutes",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

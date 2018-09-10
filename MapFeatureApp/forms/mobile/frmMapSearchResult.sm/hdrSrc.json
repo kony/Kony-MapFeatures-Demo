@@ -67,7 +67,7 @@
     "kuid": "c23de9f37771414f96b05759b4f3382f",
     "masterType": 1,
     "name": "kony.ui.Label",
-    "parent": "FlexContainer0b27f9f10d83043",
+    "parent": "flxTitle",
     "pf": "frmMapSearchResult",
     "spa": {
         "contentAlignment": 5

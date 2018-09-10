@@ -27,7 +27,7 @@ define("frmClustered", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_USERWIDGET,
-                "skin": "headerContainerSknMaster",
+                "skin": "konympheaderContainerSknMaster",
                 "top": "0dp",
                 "width": "100%",
                 "zIndex": 1
@@ -40,7 +40,7 @@ define("frmClustered", function() {
                 "isVisible": true,
                 "left": "72dp",
                 "right": "72dp",
-                "skin": "headerTitleSkinMaster",
+                "skin": "konympheaderTitleSkinMaster",
                 "text": "Clustered pins",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -60,7 +60,7 @@ define("frmClustered", function() {
                 "id": "headerIconLeft",
                 "isVisible": true,
                 "left": "4dp",
-                "skin": "headerBackIconSkin",
+                "skin": "konympheaderBackIconSkin",
                 "text": "",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -77,13 +77,13 @@ define("frmClustered", function() {
                 "textCopyable": false
             });
             var headerButtonLeft = new kony.ui.Button({
-                "focusSkin": "headerIconCartSkin",
+                "focusSkin": "konympheaderIconCartSkin",
                 "height": "100%",
                 "id": "headerButtonLeft",
                 "isVisible": true,
                 "left": "0dp",
                 "onClick": controller.AS_Button_aabecf47499b45df9523d0a474118be7,
-                "skin": "headerButtonBackSkin",
+                "skin": "konympheaderButtonBackSkin",
                 "text": "Back",
                 "top": "0dp",
                 "width": "74dp",
@@ -104,7 +104,7 @@ define("frmClustered", function() {
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
             "postShow": controller.AS_Form_ba0b80951fb74cb79f380698464dfbc6,
-            "skin": "slForm"
+            "skin": "konympfrmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

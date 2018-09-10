@@ -9,7 +9,7 @@ define(function() {
             "isVisible": true,
             "layoutType": kony.flex.FREE_FORM,
             "left": "0dp",
-            "skin": "CopyCopyslForm0jfc41c38d75b46",
+            "skin": "konympslForm0jfc41c38d75b46",
             "top": "0dp",
             "width": "100%"
         }, {}, {});
@@ -75,7 +75,7 @@ define(function() {
             "height": "8dp",
             "id": "imgBullet1",
             "isVisible": true,
-            "skin": "CopyslImage",
+            "skin": "slImage",
             "src": "point_blue.png",
             "width": "8dp",
             "zIndex": 1
@@ -90,7 +90,7 @@ define(function() {
             "height": "8dp",
             "id": "imgBullet2",
             "isVisible": true,
-            "skin": "CopyslImage",
+            "skin": "slImage",
             "src": "point_grey_1.png",
             "width": "8dp",
             "zIndex": 1
@@ -181,7 +181,7 @@ define(function() {
             "centerY": "21%",
             "id": "lblIndicatorRight",
             "isVisible": false,
-            "skin": "CopysliderNumber",
+            "skin": "konympsliderNumber",
             "text": "-999",
             "textStyle": {
                 "letterSpacing": 0,
@@ -217,7 +217,7 @@ define(function() {
             "height": "25dp",
             "id": "sliderPin",
             "isVisible": true,
-            "skin": "CopyslImage",
+            "skin": "slImage",
             "src": "singleslider_point.png",
             "width": "25dp",
             "zIndex": 1
@@ -249,7 +249,7 @@ define(function() {
             "centerY": "22%",
             "id": "lblIndicatorLeft",
             "isVisible": false,
-            "skin": "CopysliderNumber",
+            "skin": "konympsliderNumber",
             "text": "-999",
             "textStyle": {
                 "letterSpacing": 0,

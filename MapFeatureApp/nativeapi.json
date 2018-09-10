@@ -7,7 +7,7 @@
                     "platform": "iOS",
                     "os": "11.0",
                     "url": "D:\\KonyVisualizerEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\549\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-iOS-11.0.zip",
-                    "filepath": "D:\\KonyVisualizerEnterprise8.2.0GA\\workspace\\MapFeatureApp\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
+                    "filepath": "D:\\KonyVisualizerEnterprise8.2.0GA\\workspaceED\\MapFeatureApp\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
                     "enable": true
                 },
                 "Kony_SyncV2-iOS-11.0": {
@@ -15,7 +15,7 @@
                     "platform": "iOS",
                     "os": "11.0",
                     "url": "D:\\KonyVisualizerEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\549\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
-                    "filepath": "D:\\KonyVisualizerEnterprise8.2.0GA\\workspace\\MapFeatureApp\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "filepath": "D:\\KonyVisualizerEnterprise8.2.0GA\\workspaceED\\MapFeatureApp\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
                     "enable": true
                 }
             },
@@ -53,7 +53,7 @@
                     "platform": "Android",
                     "os": "4.0",
                     "url": "D:\\KonyVisualizerEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\549\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-Android-4.0.zip",
-                    "filepath": "D:\\KonyVisualizerEnterprise8.2.0GA\\workspace\\MapFeatureApp\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
+                    "filepath": "D:\\KonyVisualizerEnterprise8.2.0GA\\workspaceED\\MapFeatureApp\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
                     "enable": true
                 },
                 "Kony_SyncV2-Android-4.0": {
@@ -61,7 +61,7 @@
                     "platform": "Android",
                     "os": "4.0",
                     "url": "D:\\KonyVisualizerEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\549\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
-                    "filepath": "D:\\KonyVisualizerEnterprise8.2.0GA\\workspace\\MapFeatureApp\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "filepath": "D:\\KonyVisualizerEnterprise8.2.0GA\\workspaceED\\MapFeatureApp\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
                     "enable": true
                 },
                 "android.accounts-Android-4.0": {

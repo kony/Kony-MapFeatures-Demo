@@ -1,0 +1,232 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": ""
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": ""
+    },
+    "_skin_": "se1fc551727b4295abb388dc8c305c82",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": ""
+    },
+    "centery": {
+        "type": "string",
+        "value": ""
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxMain": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bc47ed39f99c42388335dcb25bba7d76",
+                "srcKUID": "g3b23ac5a74440ec856ef3f0b84f1298",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgBluepin": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b03f873605704747af4133aba11ccbcb",
+                "srcKUID": "e7d15571b96b4e90a0202402e169acd6",
+                "wType": "Image"
+            }
+        },
+        "imgMain": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "add36e8a363e49dfb5a6e790357a0204",
+                "srcKUID": "hc805370828a41039a36028b719fcb0e",
+                "wType": "Image"
+            }
+        },
+        "imgStar1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "db6edaff52004cc3a1ea8a645da977ea",
+                "srcKUID": "ae6cfc6ea5e741de92b3ae9311909b88",
+                "wType": "Image"
+            }
+        },
+        "imgStar2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jaa4b735482244ab8f2e96c667b749fa",
+                "srcKUID": "aa1562787be842a8a8d610af3dce5b03",
+                "wType": "Image"
+            }
+        },
+        "imgStar3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b6db76885e354b3d9e886cdc80627480",
+                "srcKUID": "f2c529cbd4a8432cbb68047b339c5f2e",
+                "wType": "Image"
+            }
+        },
+        "imgStar4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bf7b1479e2f1495da39872ff09bdf017",
+                "srcKUID": "d532ad331d3d48cdbcc5e36425186f00",
+                "wType": "Image"
+            }
+        },
+        "imgStar5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ieedac42366b46ec99d7c547e6018500",
+                "srcKUID": "d9fb21c876d74573935ae9e4c5bbfcae",
+                "wType": "Image"
+            }
+        },
+        "lblDescription": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "daa4ed718a2745d9b7a1a384174c084f",
+                "srcKUID": "e3342aaad8a043c8b2eff8b2ec084ecb",
+                "wType": "Label"
+            }
+        },
+        "lblDistance": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dc56c56c289244fe8645b74ed57a63ba",
+                "srcKUID": "g72dc12b9213476396f3f97aa7f381e4",
+                "wType": "Label"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i078ddb743984b8bbd23a0a20c905ca5",
+                "srcKUID": "jb771b35e9de4d87b9471d2776430fb5",
+                "wType": "Label"
+            },
+            "text": "Bickermann Davis"
+        },
+        "lblReviews": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ice5a11e879f41ba8f14d035f410cd56",
+                "srcKUID": "d0f3b50b3ce544ae86606cd4d9591ee7",
+                "wType": "Label"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "53%"
+                }
+            }
+        },
+        "map4": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c4cbd25f659949fd9f0af9917bae457a",
+                "srcKUID": "j5c51c4ececf4b3cab9f07ec53c01b74",
+                "wType": "FlexContainer"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        },
+        "mapView": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cb028d2262ea4384b9d995d5c8702a54",
+                "srcKUID": "jfa154a5d36240a89dc32c3dbb710a32",
+                "wType": "Map"
+            }
+        }
+    },
+    "id": "mapUpdatePins",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "c4cbd25f659949fd9f0af9917bae457a",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmMultiplePinsDockedCallout",
+    "pf": "frmMultiplePinsDockedCallout",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "j5c51c4ececf4b3cab9f07ec53c01b74",
+    "wType": "UserWidgetInstance"
+}

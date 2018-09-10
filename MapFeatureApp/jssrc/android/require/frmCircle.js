@@ -2,11 +2,11 @@ define("frmCircle", function() {
     return function(controller) {
         function addWidgetsfrmCircle() {
             this.setDefaultUnit(kony.flex.DP);
-            var Map1 = new kony.ui.Map({
+            var mapAddCircle = new kony.ui.Map({
                 "calloutWidth": 80,
                 "defaultPinImage": "kony_mp_map04_red_pin.png",
                 "height": "100%",
-                "id": "Map1",
+                "id": "mapAddCircle",
                 "isVisible": true,
                 "left": "0dp",
                 "provider": constants.MAP_PROVIDER_GOOGLE,
@@ -26,7 +26,7 @@ define("frmCircle", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_USERWIDGET,
-                "skin": "headerContainerSknMaster",
+                "skin": "konympheaderContainerSknMaster",
                 "top": "0dp",
                 "width": "100%",
                 "zIndex": 1
@@ -39,7 +39,7 @@ define("frmCircle", function() {
                 "isVisible": true,
                 "left": "72dp",
                 "right": "72dp",
-                "skin": "headerTitleSkinMaster",
+                "skin": "konympheaderTitleSkinMaster",
                 "text": "addCircle Method",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -59,7 +59,7 @@ define("frmCircle", function() {
                 "id": "headerIconLeft",
                 "isVisible": true,
                 "left": "4dp",
-                "skin": "headerBackIconSkin",
+                "skin": "konympheaderBackIconSkin",
                 "text": "",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -76,13 +76,13 @@ define("frmCircle", function() {
                 "textCopyable": false
             });
             var headerButtonLeft = new kony.ui.Button({
-                "focusSkin": "headerIconCartSkin",
+                "focusSkin": "konympheaderIconCartSkin",
                 "height": "100%",
                 "id": "headerButtonLeft",
                 "isVisible": true,
                 "left": "0dp",
                 "onClick": controller.AS_Button_dd79bde8f08846709864af71f674fa8f,
-                "skin": "headerButtonBackSkin",
+                "skin": "konympheaderButtonBackSkin",
                 "text": "Back",
                 "top": "0dp",
                 "width": "74dp",
@@ -104,15 +104,15 @@ define("frmCircle", function() {
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
-                "skin": "flxskin",
+                "skin": "konympflxskin",
                 "width": "97%",
                 "zIndex": 1
             }, {}, {});
             flxbottom.setDefaultUnit(kony.flex.DP);
-            var RadioButtonGroup0b6c5b64beb7940 = new kony.ui.RadioButtonGroup({
+            var rbgDisplayPlace = new kony.ui.RadioButtonGroup({
                 "centerX": "50%",
                 "height": "31.58%",
-                "id": "RadioButtonGroup0b6c5b64beb7940",
+                "id": "rbgDisplayPlace",
                 "isVisible": true,
                 "left": "18dp",
                 "masterData": [
@@ -143,7 +143,7 @@ define("frmCircle", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_USERWIDGET,
-                "skin": "CopyCopyslForm",
+                "skin": "konympslForm3",
                 "top": "45%",
                 "width": "100%"
             }, {}, {});
@@ -154,8 +154,8 @@ define("frmCircle", function() {
             singleslider.divisions = 1;
             singleslider.endIndex = 5;
             singleslider.onChangeEnd = controller.AS_UWI_e49cc8cf65fc4b3da117b488d42c03ca;
-            flxbottom.add(RadioButtonGroup0b6c5b64beb7940, singleslider);
-            this.add(Map1, headerContainer08, flxbottom);
+            flxbottom.add(rbgDisplayPlace, singleslider);
+            this.add(mapAddCircle, headerContainer08, flxbottom);
         };
         return [{
             "addWidgets": addWidgetsfrmCircle,
@@ -164,7 +164,7 @@ define("frmCircle", function() {
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
             "postShow": controller.AS_Form_debafff8692a4e33acc0647329bbd239,
-            "skin": "slForm"
+            "skin": "konympfrmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

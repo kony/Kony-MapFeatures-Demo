@@ -31,7 +31,7 @@
     "canUpdateUI": true,
     "children": [
         "headerContainer08",
-        "FlexContainer0b7cf2699669249"
+        "flxMain"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -54,7 +54,7 @@
     "isvisible": true,
     "kuid": "ibca544beaab4882b9149adc4a834955",
     "name": "kony.ui.Image2",
-    "parent": "FlexContainer0feb66212d20a47",
+    "parent": "flxArrow",
     "pf": "frmMapSearchResult",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

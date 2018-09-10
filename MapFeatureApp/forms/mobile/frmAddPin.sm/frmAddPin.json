@@ -30,7 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "map2",
+        "mapAddpin",
         "headerContainer08"
     ],
     "containerweight": 100,

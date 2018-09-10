@@ -22,7 +22,6 @@ function setCluster(records) {
  *	Purpose	:	To set the nodes on the basis of zoom level.
  ***********************************************************************/
 function setNodes(currentZoomLevel) {
-    var mapCluster;
     if (oldZoomLevel == undefined) {
         //alert("create cluster first");
         return;
@@ -125,25 +124,20 @@ function _merge(clusters, level_distance) {
  *	Purpose	:	To merge the nodes with clusters.
  ***********************************************************************/
 function _merge_node(cluster, node) {
-    var lat, lon, clusters, name, desc, image, merged;
+    var lat, lon, clusters;
     clusters = cluster._clusters;
     if (clusters == undefined) {
         cluster["lat"] = Number(node["lat"]);
         cluster["lon"] = Number(node["lon"]);
         cluster["name"] = node["name"];
         cluster["desc"] = node["desc"];
-        /* if(isNaN(node["desc"])){
-          cluster["desc"]=node["desc"];
-        }else{
-
-        }*/
         cluster["image"] = node["image"];
         cluster["_clusters"] = [node];
         cluster["merged"] = false;
     } else {
         var length = clusters.length;
-        var lat = 0,
-            lon = 0;
+        lat = 0;
+        lon = 0;
         for (var i = 0; i < length; i++) {
             lat = lat + Number(clusters[i]["lat"]);
             lon = lon + Number(clusters[i]["lon"]);
@@ -177,7 +171,7 @@ function _merge_node(cluster, node) {
  *	Purpose	:	To create clusters for this module
  ***********************************************************************/
 function createClusters(response) {
-    if (records == undefined || records == null) {
+    if (response == undefined || response == null) {
         alert("please enter valid pin list");
         return;
     }

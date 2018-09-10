@@ -91,20 +91,21 @@ define("frmPolygon", function() {
             headerContainer08.add(headerTitleLabel, headerIconLeft, headerButtonLeft);
             var flxbottom = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
-                "bottom": "1.20%",
-                "centerX": "50%",
+                "bottom": "13dp",
                 "clipBounds": true,
-                "height": "95dp",
+                "height": "55dp",
                 "id": "flxbottom",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
-                "left": "0dp",
+                "left": "13dp",
+                "right": "13dp",
                 "skin": "flxskin",
-                "width": "97%",
                 "zIndex": 1
             }, {}, {});
             flxbottom.setDefaultUnit(kony.flex.DP);
             var rbtn = new kony.ui.RadioButtonGroup({
+                "centerX": "50%",
+                "centerY": "50%",
                 "height": "45%",
                 "id": "rbtn",
                 "isVisible": true,
@@ -118,7 +119,7 @@ define("frmPolygon", function() {
                 "selectedKeyValue": ["pen", "Pennsylvania"],
                 "skin": "slRadioButtonGroup",
                 "top": "20dp",
-                "width": "80%",
+                "width": "95%",
                 "zIndex": 1
             }, {
                 "itemOrientation": constants.RADIOGROUP_ITEM_ORIENTATION_HORIZONTAL,
@@ -135,7 +136,7 @@ define("frmPolygon", function() {
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
             "postShow": controller.AS_Form_gbb2bf525d614a07b230114ed560ae04,
-            "skin": "slForm"
+            "skin": "frmskin"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

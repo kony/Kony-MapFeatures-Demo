@@ -1,5 +1,6 @@
 {
     "mwaddrkey": "",
+    "projectCloudGuid": "3c958e60-f7a8-499b-a720-3e7616393585",
     "wap_android360_fontsize": "13",
     "isA11yConfigEnabled": false,
     "watchos_notificationcentericon_42": "",
@@ -207,6 +208,7 @@
     "wap_bb360_fontsize": "13",
     "isNewAppWithRespectToAndroidPackageName": "",
     "wap_spawindowstab_fontsize": "17",
+    "accountCloudGuid": "147abad9-e5d0-4108-ab0b-70743455dc49",
     "defaulttheme": "defaultTheme",
     "watchos_companionSettings2x29": "",
     "watchos_shortlooknotificationicon_38": "",
@@ -225,6 +227,14 @@
     "konyVizVersion": "8.2.10",
     "isDpScaleFactor": true,
     "wap_spaandroidtab_fontsize": "17",
+    "prototype": {
+        "PublishMode": "public",
+        "resourceId": "11a97d14-e4c4-4fcc-b06c-97fc4e02319e",
+        "createdBy": "farzana shaik",
+        "shareGuid": "F722H",
+        "createdOn": "2018-08-21T07:21:10.063Z",
+        "createdById": "172fcad7-fdca-4af7-ad08-51cf65811930"
+    },
     "referenceWidth": "375",
     "winmobileguidkey": "",
     "APPLICATION_THEME": "default",
@@ -233,15 +243,5 @@
     "wap_ip_fontsize": "12",
     "category": "app",
     "createdVizVersion": "8.2.10",
-    "accountCloudGuid": "147abad9-e5d0-4108-ab0b-70743455dc49",
-    "projectCloudGuid": "3c958e60-f7a8-499b-a720-3e7616393585",
-    "prototype": {
-        "createdOn": "2018-08-21T07:21:10.063Z",
-        "createdById": "172fcad7-fdca-4af7-ad08-51cf65811930",
-        "createdBy": "farzana shaik",
-        "shareGuid": "F722H",
-        "resourceId": "11a97d14-e4c4-4fcc-b06c-97fc4e02319e",
-        "PublishMode": "public"
-    },
     "export.type": "studioviz"
 }
