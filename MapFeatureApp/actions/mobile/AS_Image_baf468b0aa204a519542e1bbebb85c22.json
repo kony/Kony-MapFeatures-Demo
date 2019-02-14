@@ -1,0 +1,30 @@
+{
+    "AS_Image_baf468b0aa204a519542e1bbebb85c22": {
+        "id": "AS_Image_baf468b0aa204a519542e1bbebb85c22",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMapSearchResult",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a651cbdcbd37484894e58c63c05d5b74"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d1df5848fc894b1ea2ec3acbecc1af88",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ntf=new kony.mvc.Navigation(\"frmSearchRoutes\");\nntf.navigate();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

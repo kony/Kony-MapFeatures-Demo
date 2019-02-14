@@ -46,6 +46,7 @@
     "kuid": "i52dbe44491547dfb5a77a2f078b5b84",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
+    "ontouchstart": "AS_FlexContainer_j89b3247a6364783bcf8e4980fe339b0",
     "parent": "frmMapSearchResult",
     "pf": "frmMapSearchResult",
     "snapgridsize": 10,

@@ -55,6 +55,8 @@
     "kuid": "u6f37ce3aac74cefa84376ad90bd3bb3",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
+    "ontouchend": "AS_FlexContainer_a210306c5bfd4b8f8856f4072beaa644",
+    "ontouchstart": "AS_FlexContainer_ie04a0d4a7c046be9ddebce5909d416d",
     "parent": "flxContainer",
     "pf": "userwidgetmodel",
     "snapgridsize": 10,

@@ -1,0 +1,27 @@
+{
+    "AS_Map_f53548ec300c4e5aa660cd83714c3f73": {
+        "id": "AS_Map_f53548ec300c4e5aa660cd83714c3f73",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "boundaryLocations"
+        }],
+        "contextObj": {
+            "name": "frmClustered",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e041935fed3242549305eb49b2e93f51"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c13e335107b141ec95b30e223b282feb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onBoundsChangedForMap(eventobject,boundaryLocations);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

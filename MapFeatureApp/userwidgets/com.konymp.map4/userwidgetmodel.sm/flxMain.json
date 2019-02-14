@@ -1,13 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "1.20%"
-    },
     "_height_": {
         "type": "string",
-        "value": "100dp"
+        "value": "90dp"
     },
     "_margin_": [
         0,
@@ -24,9 +20,13 @@
     ],
     "_percent_": true,
     "_skin_": "s5c877cb70f64052bbf3c06aee689ce5",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "97%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -56,7 +56,7 @@
     "kuid": "g3b23ac5a74440ec856ef3f0b84f1298",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "map4",
+    "parent": "FlexContainer0c4139b8cfa0842",
     "pf": "userwidgetmodel",
     "snapgridsize": 10,
     "snaptogrid": true,

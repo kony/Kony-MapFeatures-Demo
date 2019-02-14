@@ -1,0 +1,24 @@
+{
+    "AS_RadioButtonGroup_ee75d18a44a340958d993c0d9de579b9": {
+        "id": "AS_RadioButtonGroup_ee75d18a44a340958d993c0d9de579b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCircle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e1db31210abf49d3ae312316f884cee1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c23b70c1c16b4ade8d554b034de20385",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.selectPlace();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

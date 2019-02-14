@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_ba90b9ffa2fd4f67bf0d05b62731badf": {
+        "id": "AS_FlexContainer_ba90b9ffa2fd4f67bf0d05b62731badf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "ubd2988fea0840d899d16153f6b6a036",
+            "name": "uwubd2988fea0840d899d16153f6b6a036",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d647541389a64dbcb238cdf02913cfef",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.mapView.setCalloutVisibility(true,[{id:\"pin1\"}]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

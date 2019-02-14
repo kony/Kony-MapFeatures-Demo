@@ -1,0 +1,24 @@
+{
+    "AS_Button_e8f014287b8145319cad341e795cbaf2": {
+        "id": "AS_Button_e8f014287b8145319cad341e795cbaf2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSearchRoutes",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h528762875294e90a5f7b46399a94b28"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j4b851a6ef454450912d8c7a4f833ec6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var selectValue=this.view.rbgDestnation.selectedKeyValue[1];\n//var params={\"rbgSelectedValue\":selectValue};\nvar ntf=new kony.mvc.Navigation(\"frmMapSearchResult\");\nntf.navigate(selectValue);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

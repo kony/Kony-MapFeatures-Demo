@@ -1,0 +1,30 @@
+{
+    "AS_Segment_e3bc8fe5889141988b7e652fef85e96c": {
+        "id": "AS_Segment_e3bc8fe5889141988b7e652fef85e96c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMapSearchResult",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a651cbdcbd37484894e58c63c05d5b74"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c08b49b7d96647faab9ffdc76d569a33",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.SegRouteClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

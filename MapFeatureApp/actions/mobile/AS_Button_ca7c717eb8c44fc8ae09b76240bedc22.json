@@ -1,0 +1,25 @@
+{
+    "AS_Button_ca7c717eb8c44fc8ae09b76240bedc22": {
+        "id": "AS_Button_ca7c717eb8c44fc8ae09b76240bedc22",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "b6c07b8bb72046eca70d7da263e458c9",
+            "name": "frmLanding",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f1d9f94e5833427f9105e9481e8fbfd6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var ntf = new kony.mvc.Navigation(\"frmKnowledgeFramework\");\n    ntf.navigate(this.kfdata);",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }]
+    }
+}

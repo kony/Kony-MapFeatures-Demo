@@ -51,6 +51,7 @@
     "isvisible": true,
     "kuid": "fb5d98114c7648b787f44e07cddf5a35",
     "name": "kony.ui.Image2",
+    "ontouchend": "AS_Image_baf468b0aa204a519542e1bbebb85c22",
     "parent": "flxTitle",
     "pf": "frmMapSearchResult",
     "retaincontentalignment": false,

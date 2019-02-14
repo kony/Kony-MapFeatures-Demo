@@ -96,6 +96,7 @@
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
+    "onrowclick": "AS_Segment_ebd4729e9b6c416580b2199c9cdbef09",
     "pageoffdotimage": "pageoffdot_3.png",
     "pageondotimage": "pageondot_3.png",
     "paginationconfig": {

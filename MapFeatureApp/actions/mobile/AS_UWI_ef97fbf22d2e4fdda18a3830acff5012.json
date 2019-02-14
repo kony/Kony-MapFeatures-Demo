@@ -1,0 +1,20 @@
+{
+    "AS_UWI_ef97fbf22d2e4fdda18a3830acff5012": {
+        "id": "AS_UWI_ef97fbf22d2e4fdda18a3830acff5012",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "KUID": "c265e7079e5a47eb830494a40e7a5c26",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c565f3d79bc74fd1a44818bcfabbbc03",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.invokeIntgService(\"FetchATM\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

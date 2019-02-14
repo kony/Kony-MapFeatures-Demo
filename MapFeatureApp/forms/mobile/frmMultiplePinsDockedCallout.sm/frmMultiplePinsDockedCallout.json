@@ -99,6 +99,7 @@
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
+    "onhide": "AS_Form_c2f5393979274dca9262b98feff4e9af",
     "paddinginpixel": false,
     "platform": "iphone",
     "prevDevice": "iPhoneX",

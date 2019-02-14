@@ -1,0 +1,21 @@
+{
+    "AS_Switch_bb7a95a2770c478ca64c779efb5dd967": {
+        "id": "AS_Switch_bb7a95a2770c478ca64c779efb5dd967",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onSlide_af1c8815c6d6425c9da1376d387ecddb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "autoCenterOnOff",
+            "display": "autoCenterOnOff",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

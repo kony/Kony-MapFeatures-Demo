@@ -1,0 +1,20 @@
+{
+    "AS_UWI_a522c1540f1f449e91826693f845f0af": {
+        "id": "AS_UWI_a522c1540f1f449e91826693f845f0af",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "KUID": "c265e7079e5a47eb830494a40e7a5c26",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b4de0a88bcc746ba9d13d85992d2f336",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.invokeIntgService(\"fetchShoppingMall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

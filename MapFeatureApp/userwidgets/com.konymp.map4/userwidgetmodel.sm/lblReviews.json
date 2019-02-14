@@ -67,6 +67,7 @@
     "name": "kony.ui.Label",
     "parent": "flxMain",
     "pf": "userwidgetmodel",
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

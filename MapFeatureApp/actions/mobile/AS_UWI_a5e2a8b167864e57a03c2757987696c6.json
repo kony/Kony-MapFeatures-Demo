@@ -1,0 +1,23 @@
+{
+    "AS_UWI_a5e2a8b167864e57a03c2757987696c6": {
+        "id": "AS_UWI_a5e2a8b167864e57a03c2757987696c6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "value",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmCircle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e1db31210abf49d3ae312316f884cee1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f7565327b01a43b0b03e43c97d961ed5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.changeRadius();",
+            "parentId": null
+        }]
+    }
+}

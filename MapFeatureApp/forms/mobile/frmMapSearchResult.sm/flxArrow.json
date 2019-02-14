@@ -49,6 +49,7 @@
     "kuid": "b1f477de99d14592bf030581040b3178",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
+    "onclick": "AS_FlexContainer_dc6924c5415c42d5810fb11e670ad039",
     "parent": "flxDestDetails",
     "pf": "frmMapSearchResult",
     "retaincontentalignment": false,

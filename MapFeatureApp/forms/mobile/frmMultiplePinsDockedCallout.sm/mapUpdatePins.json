@@ -11,6 +11,7 @@
         "type": "string",
         "value": "100%"
     },
+    "_iphone_": {},
     "_left_": {
         "type": "string",
         "value": "0dp"
@@ -39,6 +40,9 @@
         "type": "string",
         "value": "0dp"
     },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -56,6 +60,22 @@
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
+        "FlexContainer0c4139b8cfa0842": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dd8275eac27c4a4aa5f416a4a600830c",
+                "srcKUID": "d71f53e267974ca4a8305052563adb49",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0e58b620aad654f": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c1a29ca0db514704a8006cf5ea832564",
+                "srcKUID": "c7aeada7064d4590aabc517564406e8f",
+                "wType": "FlexContainer"
+            }
+        },
         "flxMain": {
             "__events__": {},
             "__info__": {
@@ -120,6 +140,14 @@
                 "wType": "Image"
             }
         },
+        "lblAutoCenter": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fbd27799b8574faaab3126a04c984ac2",
+                "srcKUID": "geed395760304187ae3423261b7f3512",
+                "wType": "Label"
+            }
+        },
         "lblDescription": {
             "__events__": {},
             "__info__": {
@@ -144,6 +172,14 @@
                 "wType": "Label"
             },
             "text": "Bickermann Davis"
+        },
+        "lblLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b578db5f9e2b481180ed5a263353d97c",
+                "srcKUID": "bb66324905f042b4930ef780d244c93b",
+                "wType": "Label"
+            }
         },
         "lblReviews": {
             "__events__": {},
@@ -210,6 +246,14 @@
                 "kuid": "cb028d2262ea4384b9d995d5c8702a54",
                 "srcKUID": "jfa154a5d36240a89dc32c3dbb710a32",
                 "wType": "Map"
+            }
+        },
+        "swtchAutoCenter": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jaf19b6b07bb428f8265ed8d269deb95",
+                "srcKUID": "j6ccdde0a96c46518ed7dd5eeb664476",
+                "wType": "Switch"
             }
         }
     },

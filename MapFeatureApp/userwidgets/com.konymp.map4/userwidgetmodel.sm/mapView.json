@@ -44,6 +44,7 @@
     "mapsource": "non-native",
     "mapsrc": "non-native",
     "name": "kony.ui.Map",
+    "onpinclick": "AS_Map_ffe2ed68e3494b2394fbc13332596ca2",
     "parent": "map4",
     "pf": "userwidgetmodel",
     "provider": "google",

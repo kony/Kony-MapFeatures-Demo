@@ -1,0 +1,24 @@
+{
+    "AS_Form_debafff8692a4e33acc0647329bbd239": {
+        "id": "AS_Form_debafff8692a4e33acc0647329bbd239",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCircle",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e1db31210abf49d3ae312316f884cee1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cdc0fd31128c4278ba21d7321696bbff",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.addCircletoMapLoc(\"40.7127753\",\"-74.0059728\",5);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_Form_c3a8d80b33764610926268e8f96ace19": {
+        "id": "AS_Form_c3a8d80b33764610926268e8f96ace19",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMapSearchResult",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a651cbdcbd37484894e58c63c05d5b74"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

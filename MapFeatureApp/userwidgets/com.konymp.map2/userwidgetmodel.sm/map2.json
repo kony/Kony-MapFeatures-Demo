@@ -50,6 +50,8 @@
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",
+    "postshow": "AS_FlexContainer_ba90b9ffa2fd4f67bf0d05b62731badf",
+    "preshow": "AS_FlexContainer_ccb30b09969846ed98bf185b0eb32cc8",
     "snapgridsize": 10,
     "snaptogrid": true,
     "vizProps": {

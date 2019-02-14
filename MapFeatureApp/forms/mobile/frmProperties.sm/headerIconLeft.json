@@ -59,6 +59,7 @@
     "kuid": "bccd0feafd3748efa740794411d143de",
     "masterType": 1,
     "name": "kony.ui.Label",
+    "ontouchend": "AS_Label_d356ed7362ec4159a97102c426ccd8db",
     "parent": "frmProperties",
     "pf": "frmProperties",
     "textstyle": {},

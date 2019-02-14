@@ -36,8 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "mapView",
-        "flxMain",
-        "imgBluepin"
+        "imgBluepin",
+        "FlexContainer0c4139b8cfa0842"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -51,6 +51,7 @@
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",
+    "preshow": "AS_FlexContainer_gf4b6ba21862497c8626d264001caa4f",
     "snapgridsize": 10,
     "snaptogrid": true,
     "vizProps": {

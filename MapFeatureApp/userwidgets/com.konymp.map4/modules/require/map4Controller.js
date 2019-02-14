@@ -38,6 +38,7 @@ define(function() {
          showcallout: false},
       ];
       this.view.mapView.locationData = this.locationData;
+      this.view.mapView.autoCenterPinOnClick=true; 
 
     },
     pinClicked : function(location){
@@ -46,6 +47,15 @@ define(function() {
       this.view.lblHeading.text = location.lblheading;
       this.view.lblDistance.text = location.lbldistance;
       this.view.lblDescription.text = location.dec;
+    },
+    autoCenterOnOff: function(){
+      if(this.view.mapView.autoCenterPinOnClick===true )
+        {
+          this.view.mapView.autoCenterPinOnClick=false; 
+        }else{
+          this.view.mapView.autoCenterPinOnClick=true; 
+        }
+       
     }
   };
 });

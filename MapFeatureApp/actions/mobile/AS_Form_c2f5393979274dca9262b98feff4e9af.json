@@ -1,0 +1,24 @@
+{
+    "AS_Form_c2f5393979274dca9262b98feff4e9af": {
+        "id": "AS_Form_c2f5393979274dca9262b98feff4e9af",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMultiplePinsDockedCallout",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d9dcc44426304b18a1d9a72e0ba70c9a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bd9f0d88d1ed477eb7bbf91a70485c9b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.destroyForm(\"frmMultiplePinsDockedCallout\" );",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

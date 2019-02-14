@@ -75,6 +75,7 @@
         ]
     ],
     "name": "kony.ui.RadioButtonGroup",
+    "onselection": "AS_RadioButtonGroup_a8ae610b8db74311b25e56c7e1d3ffdf",
     "paddinginpixel": false,
     "parent": "flxbottom",
     "pf": "frmPolygon",

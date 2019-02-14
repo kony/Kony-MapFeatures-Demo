@@ -103,6 +103,7 @@
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
+    "onhide": "AS_Form_b10f9d240bbd45daac9e7841ee1547dd",
     "paddinginpixel": false,
     "platform": "iphone",
     "prevDevice": "GalaxyS8",
